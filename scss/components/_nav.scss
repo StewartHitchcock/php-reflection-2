@@ -1,0 +1,289 @@
+// Contains entire navbar
+
+.navbar {
+    display: none;
+    position:relative;
+    width: 100%;
+    height: 99px;
+    background-color: $nm-blue;
+    border-bottom: 1px white solid;
+    
+}
+// Contains all Nav buttons
+.navbar-buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto;
+    
+}
+
+// Controls the contents inside each nav button
+
+.nav-button {
+    display:flex;
+    flex-direction: column;
+    background-color: $nm-blue;
+    width: 180px;
+    height: 99px;
+    padding: 0px 15px;
+    text-decoration: none;
+    padding: 19px 0px 18px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center; 
+    cursor:pointer;
+    font-size: 18px;
+    border-right: 1px solid $nm-purple;
+    border-bottom: 1px white solid;
+    z-index: 2;
+}
+
+.nav-buttons .nav-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 10px;
+    line-height: 2.813rem;
+}
+
+// Contains the icons styling within the nav bar and their hover states
+
+// Web design
+.navbar-buttons .fa-code {
+    color: $nm-purple;
+}
+
+.nav-bar-web:hover .fa-code {
+    color: white;
+}
+
+.nav-bar-web {
+    border-left: 1px solid $nm-purple;
+}
+
+// IT Support
+.navbar-buttons .fa-desktop {
+    color: $nm-light-blue;
+}
+
+.nav-bar-it:hover .fa-desktop {
+    color: white;
+}
+
+// Telecoms Services
+.navbar-buttons .fa-phone-volume {
+    color: $nm-red;
+}
+
+.nav-bar-telecoms:hover .fa-phone-volume {
+    color: white;
+}
+
+// Bespoke Software
+.navbar-buttons .fa-th {
+    color: $nm-grey;
+}
+
+.nav-bar-bespoke:hover .fa-th {
+    color: white;
+}
+
+// Digital Marketing
+.navbar-buttons .fa-chart-bar {
+    color: $nm-green;
+}
+
+.nav-bar-digital:hover .fa-chart-bar {
+    color: white;
+}
+
+// Cyber Security
+.navbar-buttons .fa-shield-alt {
+    color: $nm-pink;
+}
+
+.nav-bar-cyber:hover .fa-shield-alt {
+    color: white;
+}
+
+// Makes the text inside the button smaller
+.navbar-buttons p { 
+    font-size: 10px;
+}
+
+// Controls colour on hover states of each button
+.nav-bar-web:hover {
+    background-color: $nm-purple;
+}
+
+.nav-bar-it:hover {
+    background-color: $nm-light-blue;
+}
+
+.nav-bar-telecoms:hover {
+    background-color: $nm-red;
+}
+
+.nav-bar-bespoke:hover {
+    background-color: $nm-grey;
+}
+
+.nav-bar-digital:hover {
+    background-color: $nm-green;
+}
+
+.nav-bar-cyber:hover {
+    background-color: $nm-pink;
+}
+
+// Sets the dimensions of the revealing navbar elements and forces it to only appear on hover
+.nav-hover-contents  {
+    display: none;
+    width: 100vw;
+    height: 45px;
+    position:absolute; 
+    top: 98px;
+    left:0;
+    ::before {
+        content:'';
+        display:block;
+        position:absolute;
+        top:0;
+        right: 100%;
+        width: 500px;
+        height: 45px;
+    }
+    ::after {
+        content:'';
+        display:block;
+        position:absolute;
+        top:0;
+        left: 100%;
+        width: 500px;
+        height: 45px;
+    }
+    a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        height: 45px;
+        justify-content: center;
+        
+    }
+}
+
+//Contains the colour for the revealable navbar and the elements each side of the .nav-hover-contents
+
+.nav-hover-web {
+    background-color: $nm-purple;
+    ::before {
+        background-color: $nm-purple;
+    }
+    ::after {
+        background-color: $nm-purple;
+    }
+}
+
+.nav-hover-it {
+    background-color: $nm-light-blue;
+    ::before {
+        background-color: $nm-light-blue;
+    }
+    ::after {
+        background-color: $nm-light-blue;
+    }
+}
+
+.nav-hover-telecoms {
+    background-color: $nm-red;
+    ::before {
+        background-color: $nm-red;
+    }
+    ::after {
+        background-color: $nm-red;
+    }
+}
+
+.nav-hover-bespoke {
+    background-color: $nm-grey;
+    ::before {
+        background-color: $nm-grey;
+    }
+    ::after {
+        background-color: $nm-grey;
+    }
+}
+
+.nav-hover-digital {
+    background-color: $nm-green;
+    ::before {
+        background-color: $nm-green;
+    }
+    ::after {
+        background-color: $nm-green;
+    }
+}
+
+.nav-hover-cyber {
+    background-color: $nm-pink;
+    ::before {
+        background-color: $nm-pink;
+    }
+    ::after {
+        background-color: $nm-pink;
+    }
+}
+
+//Displays the links within each nav-button
+
+.nav-bar-web:hover .nav-hover-web {
+    display:block;
+}
+
+.nav-bar-it:hover .nav-hover-it {
+    display:block;
+}
+
+.nav-bar-telecoms:hover .nav-hover-telecoms {
+    display:block;
+}
+
+.nav-bar-bespoke:hover .nav-hover-bespoke {
+    display:block;
+}
+
+.nav-bar-digital:hover .nav-hover-digital {
+    display:block;
+}
+
+.nav-bar-cyber:hover .nav-hover-cyber {
+    display:block;
+}
+
+// Adds the differentiators between each of the links in the revealer
+
+
+.nav-hover-contents a:nth-of-type(1n+2) {
+    padding-left: 20px;
+}
+
+.content {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto;
+    vertical-align: auto;
+    a {
+        padding-top: 12px;
+    }
+}
+
+.content-dash {
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    display:block;
+    content: "";
+    margin: auto 0;
+}

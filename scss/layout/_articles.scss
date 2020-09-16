@@ -1,0 +1,94 @@
+// Articles container
+
+.articles {
+    padding: 30px 15px;
+    margin-left: 1px;
+    background-color: #f2f2f2;
+    
+}
+
+.article-header-container h4 {
+    
+    border-bottom: solid black 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 65px;
+    padding: 35px 0px;
+    margin-left: 20px;
+    
+}
+
+.article-header-container {
+    margin: auto auto;
+    background-color:white;
+    height: 104px;
+}
+
+
+.articles a {
+    text-decoration: none;
+    color: $nm-purple;
+}
+
+.articles a:hover {
+    text-decoration: underline;
+}
+
+.articles p {
+    line-height: 1.375rem;
+    font-size: 0.8125rem;
+    margin: 15px 20px 25px;
+    
+}
+
+.article-container h5{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.article-container {
+    margin: 0px 10px;
+    background-color: white;
+}
+
+// Contains .author, avatar, author details and the article itself.
+
+.articles-container {
+    padding: 50px 0px;
+    background-color: #f2f2f2;
+    padding: 50px 0px;
+        
+}
+
+.article-container {
+    border: solid #ccc 1px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;    
+}
+
+
+// Contains .avatar, .author and .author-details 
+.author {
+    margin-top: 8px;
+    padding-top: 30px;
+    border-top: solid #ccc 1px;
+    display: flex;
+    margin: 25px 25px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;  
+    margin-left: 20px;
+    height: 47px;
+    width: 47px;
+}
+
+.author-details {
+    line-height: 0px;
+}
+
+

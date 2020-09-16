@@ -1,0 +1,186 @@
+
+.slides {
+    margin-top: 10px;
+
+    @media (min-width: 768px) {
+        margin-top: -10px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 0px;
+    }
+    
+}
+
+.slick-dots li {
+    margin-top: -60px;
+}
+
+.slick-dots li button {
+    margin-top: -60px;
+    
+}
+
+.slick-dots li button:before {
+    color: white;
+    margin-top: -70px;
+    border: solid 2px white;
+    border-radius: 17px;
+    font-size: 13px;
+}
+
+
+
+.slick-list {
+    height: 800px;
+    margin-bottom: 10px;
+}
+
+ 
+// Is the carousel images
+.carousel-img-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset3.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+.carousel-img-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset4.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+.carousel-img-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset5.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+.carousel-img-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset6.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+.carousel-img-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset1.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+.carousel-img-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    transform-origin: 50% 50%;
+}
+
+
+// Postions the text overlay
+  .carousel-text {
+    top: -500px;
+    position: relative;
+    color: white;
+    margin: auto;
+    width: 350px;
+    
+
+    @media screen and (min-width: 768px) {
+        width: 750px;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media screen and (min-width: 1268px) {
+        width: 1200px;
+    }
+}
+
+// Contains the contents of the carousel
+
+.slides {
+    height: 750px;
+}
+
+.slide h1 {
+    margin-bottom: 25px;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.slide p {
+    line-height: 30px;
+    letter-spacing: .4px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.slide button {
+    text-align: center;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 223px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slide-1 button {
+    background-color: $nm-purple;
+}
+.slide-1 button:hover {
+    background-color: $nm-purple-dark;
+}
+
+.slide-2 button {
+    background-color: $nm-light-blue;
+}
+.slide-2 button:hover {
+    background-color: $nm-purple-dark;
+}
+.slide-3 button {
+    background-color: $nm-red;
+}
+.slide-3 button:hover {
+    background-color: $nm-purple-dark;
+}
+.slide-4 button {
+    background-color: $nm-grey;
+}
+.slide-4 button:hover {
+    background-color: $nm-purple-dark;
+}
+.slide-5 button {
+    background-color: $nm-green;
+}
+.slide-5 button:hover {
+    background-color: $nm-purple-dark;
+}
+.slide-6 button {
+    background-color: $nm-pink;
+}
+.slide-6 button:hover {
+    background-color: $nm-purple-dark;
+}
+
+.slick-dots li button:before {
+    color: white;
+}
+

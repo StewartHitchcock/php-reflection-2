@@ -1,0 +1,523 @@
+// Social Media Footer Buttons
+
+// Facebook button
+.social-button-facebook {
+    background-color: rgba(0,0,0,0.25);
+    margin-bottom: 15px; // This ensures vertical spacing with .social-button-linkedin
+    width: 45%;
+    order: 1;
+    color: white;
+    cursor: pointer;
+    border:rgba(0,0,0,0.25); 
+    padding: 10px 0px;
+}
+
+.social-button-facebook:hover {
+    background-color: #3b5998;
+}
+
+// Twitter button
+.social-button-twitter {
+    background-color: rgba(0,0,0,0.25); 
+    margin-bottom: 15px; // This ensures vertical spacing with .social-button-linkedin
+    width: 45%;
+    order: 2;
+    color: white;
+    cursor: pointer;
+    border:rgba(0,0,0,0.25); 
+    padding: 10px 0px;
+}
+
+.social-button-twitter:hover {
+    background-color: #00aced;
+}
+
+// Linkedin button
+.social-button-linkedin {
+    background-color:rgba(0,0,0,0.25);
+    width: 45%;
+    order: 3;
+    color: white;
+    cursor: pointer;
+    border:rgba(0,0,0,0.25); 
+    padding: 10px 0px;
+   
+}
+
+.social-button-linkedin:hover {
+    background-color: #0077b5;
+}
+
+//Article Read More buttons
+
+.read-more-button {
+    background-color: $nm-purple;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    width: 128px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.read-more-button:hover {
+    background-color: $nm-purple-dark;
+    border-color: #735093;
+}
+
+.read-more-button-dm {
+    background-color: $nm-green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 128px;
+    margin-left: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;   
+}
+
+.read-more-button-dm:hover {
+    background-color: #26ab5f;
+    border-color: #239a55;
+}
+
+//Buttons on the article images
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor:pointer;
+    
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container .img-button {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #926fb1;
+    color: white;
+    font-size: .75rem;
+    padding: 0px 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+// culture button
+
+.culture-div button {
+    width: 170px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    padding: 15px 0px;
+    font-size: 1.07rem;
+    cursor:pointer;
+}
+
+.culture-div button:hover {
+    opacity: 0.8;
+}
+
+// contains all .button-container
+
+
+
+.buttons-container a {
+    text-decoration: none;
+    color: #333645;
+}
+
+
+// contains button elements
+.button-container {
+    border: solid 1px #ccc;
+    box-shadow: 0 3px 35px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 720px; 
+
+}
+
+.button-container h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 200;
+}
+
+.divider {
+    width: 28px;
+    height: 3px;
+    margin: 0px auto 10px;
+}
+
+.button-container p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.button-container .button {
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px;
+    cursor:pointer;
+    font-size: 17px;
+}
+
+
+
+// Bespoke software
+#bespoke-software .icon-circle {
+    background-color: $nm-grey;
+}
+
+//bespoke software button
+.fa-th-button {
+    background-color: $nm-grey;
+    color: white;
+}
+
+#bespoke-software span {
+    background-color: $nm-grey;
+}
+
+// bespoke-software on hover
+#bespoke-software:hover {
+    background-color: $nm-grey;
+}
+
+#bespoke-software:hover h2 {
+    color: white;
+}
+
+#bespoke-software:hover i {
+    background-color: white;
+    color: $nm-grey;
+}
+
+#bespoke-software:hover span {
+    background-color: white;
+}
+
+#bespoke-software:hover p {
+    color: white;
+}
+
+#bespoke-software:hover .fa-th-button {
+    background-color: white;
+    color: $nm-grey;
+}
+
+#bespoke-software:hover .icon-circle {
+    background-color: white;
+}
+
+//IT Support
+
+#it-support .icon-circle {
+    background-color: $nm-light-blue;
+
+}
+
+.fa-desktop-button {
+    background-color: $nm-light-blue;
+    color: white;
+}
+
+#it-support span {
+    background-color: $nm-light-blue;
+}
+
+// It Support on hover
+
+#it-support:hover {
+    background-color: $nm-light-blue;
+}
+
+#it-support:hover h2 {
+    color: white;
+}
+
+#it-support:hover i {
+    background-color: white;
+    color: $nm-light-blue;
+}
+
+#it-support:hover span {
+    background-color: white;
+}
+
+#it-support:hover p {
+    color: white;
+}
+
+#it-support:hover .fa-desktop-button {
+    background-color: white;
+    color: $nm-light-blue;
+}
+
+#it-support:hover .icon-circle {
+    background-color: white;
+}
+
+// Digital marketing
+
+#digital-marketing .icon-circle {
+    background-color: $nm-green;
+
+}
+
+.fa-chart-bar-button {
+    background-color: $nm-green;
+    color: white;
+}
+
+#digital-marketing span {
+    background-color: $nm-green;
+}
+
+// digital marketing on hover
+
+#digital-marketing:hover {
+    background-color: $nm-green;
+}
+
+#digital-marketing:hover h2 {
+    color: white;
+}
+
+#digital-marketing:hover i {
+    background-color: white;
+    color: $nm-green;
+}
+
+#digital-marketing:hover span {
+    background-color: white;
+}
+
+#digital-marketing:hover p {
+    color: white;
+}
+
+#digital-marketing:hover .fa-chart-bar-button {
+    background-color: white;
+    color: $nm-green;
+}
+
+#digital-marketing:hover .icon-circle {
+    background-color: white;
+}
+
+// Telecoms services
+
+#telecom-service .icon-circle {
+    background-color: $nm-red;
+
+}
+
+.fa-phone-volume-button {
+    background-color: $nm-red;
+    color: white;
+}
+
+#telecom-service span {
+    background-color: $nm-red;
+}
+
+// Telecom services on hover
+
+#telecom-service:hover {
+    background-color: $nm-red;
+}
+
+#telecom-service:hover h2 {
+    color: white;
+}
+
+#telecom-service:hover i {
+    background-color: white;
+    color: $nm-red;
+}
+
+#telecom-service:hover span {
+    background-color: white;
+}
+
+#telecom-service:hover p {
+    color: white;
+}
+
+#telecom-service:hover .fa-phone-volume-button {
+    background-color: white;
+    color: $nm-red;
+}
+
+#telecom-service:hover .icon-circle {
+    background-color: white;
+}
+
+// Web design
+
+#web-design .icon-circle {
+    background-color: $nm-purple;
+
+}
+
+.fa-code-button {
+    background-color: $nm-purple;
+    color: white;
+}
+
+#web-design span {
+    background-color: $nm-purple;
+}
+
+//Web design on hover
+
+#web-design:hover {
+    background-color: $nm-purple;
+}
+
+#web-design:hover h2 {
+    color: white;
+}
+
+#web-design:hover i {
+    background-color: white;
+    color: $nm-purple;
+}
+
+#web-design:hover span {
+    background-color: white;
+}
+
+#web-design:hover p {
+    color: white;
+}
+
+#web-design:hover .fa-code-button {
+    background-color: white;
+    color: $nm-purple;
+}
+
+#web-design:hover .icon-circle {
+    background-color: white;
+}
+
+// Cyber Security
+
+#cyber-security .icon-circle {
+    background-color:$nm-pink;
+
+}
+
+.fa-shield-alt-button {
+    background-color: $nm-pink;
+    color: white;
+}
+
+#cyber-security span {
+    background-color: $nm-pink;
+}
+
+// Cyber Security on hover
+
+#cyber-security:hover {
+    background-color: $nm-pink;
+}
+
+#cyber-security:hover h2 {
+    color: white;
+}
+
+#cyber-security:hover i {
+    background-color: white;
+    color: $nm-pink;
+}
+
+#cyber-security:hover span {
+    background-color: white;
+}
+
+#cyber-security:hover p {
+    color: white;
+}
+
+#cyber-security:hover .fa-shield-alt-button {
+    background-color: white;
+    color: $nm-pink;
+}
+
+#cyber-security:hover .icon-circle {
+    background-color: white;
+}
+
+// Developer Training
+
+#developer-training .icon-circle{
+    background-color:$nm-purple;
+
+}
+
+.fa-graduation-cap-button {
+    background-color: $nm-purple;
+    color: white;
+    text-align: center;
+}
+
+#developer-training span {
+    background-color: $nm-purple;
+}
+
+// Developer training on hover
+
+#developer-training:hover {
+    background-color: $nm-purple;
+}
+
+#developer-training:hover h2 {
+    color: white;
+}
+
+#developer-training:hover i {
+    background-color: white;
+    color: $nm-purple;
+}
+
+#developer-training:hover span {
+    background-color: white;
+}
+
+#developer-training:hover p {
+    color: white;
+}
+
+#developer-training:hover .fa-graduation-cap-button {
+    background-color: white;
+    color: $nm-purple;
+}
+
+#developer-training:hover .icon-circle {
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+.fab {
+    font-size: 35px;
+    margin: 0px 0px 1px;
+}
+
+.fas {
+    padding: 0px 7px;
+}
+
+// Positions the buttons in the nav cards 
+
+.btn-icn {
+    position: absolute;
+    top: 20px;
+    right: 15px; 
+}
+
+// Positions the circle that goes around the icons in the nav cards
+
+.icon-circle {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align:center;
+    color: white;
+    position: relative;
+}
+
+// Adds padding to the icons in the nav bar
+.nav-icn {
+    padding: 0px 0px 10px;
+}
+
+

@@ -1,0 +1,48 @@
+// Universal selector
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    // border: 1px solid red;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+}
+
+body {
+    letter-spacing: .4px;
+    line-height: 1.42857143;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    // margin-top: -420px;
+
+}
+
+.open {
+    margin-right: 250px;
+}
+
+.stop-scroll {
+    height: 100vh;
+    width:100vw;
+    background: rgba(0, 0, 0, .5);
+    z-index: 10;
+    position: absolute;
+}
+
+#scrollbar {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.sb-class {
+    position: absolute;
+    right: 350px;
+    width: 100%;
+}
+
+

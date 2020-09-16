@@ -1,0 +1,806 @@
+@media screen and (max-width: 767px) {
+    .clients-container {
+        display: none;
+    }
+
+    .accredits {
+        display: none;
+    }
+
+    .search-container-lrg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .header-items,
+    .buttons-container,
+    .culture-div-container,
+    .articles-container,
+    .footer-container-contents,
+    .clients-container,
+    .accredits,
+    .carousel-margin,
+    .article-header-container
+     {
+        width: 750px;
+    }
+
+    .culture-div-container {
+        margin: auto;
+    }
+
+    .footer-container-contents {
+        margin: auto;
+        
+    }
+
+    .contactus {
+        margin-left: 20px;
+    }
+
+    .website {
+        margin-left: 20px;
+    }
+
+    .aboutnm {
+        margin-left: 100px;
+    }
+
+    .social-media {
+        margin-left: 100px;
+    }
+
+    header {
+        height: 110px;
+    }
+
+    .header-items {
+       margin-top: 30px;
+       padding: 0px;
+    }
+
+    .carousel-margin {
+        margin: 0 auto;
+    }
+
+    .articles {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+        height: 1714px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button-container {
+        margin: 0px;
+    }
+
+    #bespoke-software, 
+    #it-support,
+    #digital-marketing {
+        min-width: 294px; 
+        max-height: 300px;
+        margin: 10px 0px;
+    }
+
+    #telecom-service,
+    #cyber-security {
+        min-width: 345px;
+        max-height: 300px;
+        width: 345px;
+        margin: 30px 15px 0px 0px;
+    }
+
+    #developer-training,
+    #web-design {
+        min-width: 345px;
+        max-height: 300px;
+        width: 345px;
+        margin: 30px 0px 0px 15px;  
+    }
+
+    .header-items .phone {
+        display: none;
+    }
+
+    .header-items .logo {
+        order: 1;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .search-container-lrg {
+        display: inline-flex;
+        width: 35%;
+        margin: 0px 20px 0px 20px;
+        background-color: white;
+        border: 2px solid rgba(0,0,0,0.1);
+        height: 63px;
+    }
+
+    .search-container-lrg input {
+        padding-left: 10px;
+      }
+
+    .search-container-lrg input::placeholder {
+        opacity: 1;
+    }
+
+    .search-container-lrg i {
+        color: white;
+        background-color: #999aa2;
+    }
+
+    .search-box {
+        background-color: white;
+    }
+
+    .burger-container {
+        order: 3;
+    }
+
+    .bottom-navs {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer-container {
+        height: 528px;
+    }
+
+    .footer-container-contents {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .social-media {
+        flex-direction: row;
+        width: 300px;
+    }
+
+    .social-button-facebook {
+        width: 45%;
+        margin-right: 20px;
+    }
+
+    .social-button-twitter {
+        width: 45%;
+    }
+
+    .social-button-linkedin {
+        width: 45%;
+    }
+
+    .culture-div p {
+        margin-bottom: 25px;
+    }
+
+    .culture-div {
+        height: 493px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    .header-items,
+    .buttons-container,
+    .culture-div-container,
+    .articles-container,
+    .clients-container,
+    .footer-container-contents,
+    .accredits,
+    .carousel-margin,
+    .navbar-buttons,
+    .article-header-container,
+    .content {
+        width: 970px;
+    }
+
+    .aboutnm {
+        margin-left: 300px;
+    }
+
+    .social-media {
+        margin-left: 300px;
+    }
+
+    .google-partner {
+        width: 400px;
+        margin-right: 20px;
+    }
+
+    .silver-ms {
+        width: 130px;
+        margin-left: 0px;
+        height: 100px;
+    
+    }
+
+    .carbon-charter {
+        width: 290px;
+    }
+
+    .future-50 {
+        width: 50px;
+    }
+
+    .clients {
+        height: 63px;
+        margin-left: 10px;
+    }
+
+    .busseys {
+        width: 169px;
+    }
+
+    .crane {
+        width:260px;
+    }
+
+    .beat {
+        width: 65px;
+    }
+
+    .diver {
+        width: 290px;
+    }
+
+    .tooltiptext1 {
+        right: -20px;
+    }
+    
+    .tooltiptext2 {
+        right: 50px;
+    }
+    
+    .tooltiptext3 {
+        right: -80px;
+    }
+    
+    .tooltiptext4 {
+        right: 50px;
+    }
+
+    .buttons-container {
+        display:flex;
+        flex-direction: row;
+        height: 1096px;
+        flex-wrap: wrap;
+    }
+
+    .button-container {
+        margin:0px;
+    }
+
+    #bespoke-software, 
+    #it-support,
+    #digital-marketing {
+        min-width: 294px; 
+        max-height: 356px;
+        width: 294px;
+        height: 356px;
+    }
+
+    #bespoke-software {
+        margin-right: 15px;
+    }
+
+    #it-support {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #digital-marketing {
+        margin-left: 15px;
+    }
+
+    #telecom-service,
+    #cyber-security {
+        min-width: 455px;
+        max-height: 300px;
+        width: 455px;
+        margin: 30px 15px 0px 0px;
+    }
+
+    #developer-training,
+    #web-design {
+        min-width: 455px;
+        max-height: 300px;
+        width: 445px;
+        margin: 30px 0px 0px 15px;  
+    }
+
+    #cyber-security,
+    #developer-training {
+        margin-bottom: 30px;
+    }
+
+    .search-container-lrg {
+        display: none;
+    }
+
+    .support-button {
+        display: inline-flex;
+        margin-right: 20px;
+        margin-left: -500px; 
+        font-size: 1.125rem;
+        padding: 5px 15px;
+        cursor:pointer;
+        height: 63px;
+        width: 144px;
+        align-items: center;
+    }
+
+    .contact-button {
+        display: inline-flex;
+        margin-right: 20px; 
+        font-size: 1.125rem;   
+        padding: 5px 15px;
+        cursor:pointer;
+        height: 63px;
+        width: 144px;
+        align-items: center;
+    }
+
+    .search-button {
+        display: inline-flex;
+        height: 63px;
+        margin-right: 20px;
+        width: 63px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .culture-div{ 
+        background-size: auto 100%;
+        background-position: right center;        
+    }
+
+    
+    // Resizing the accreditations section
+
+    .accredits {
+        height:100px;
+    }
+   
+    .accreditation {
+        width: 250px;
+    }
+
+    .articles-container {
+        display: flex;
+    }
+
+    .img-container {
+        height: 100%;
+        width: auto;
+        overflow: hidden;
+    }
+    
+    .img-container img {
+        transition: transform .6s;
+    }
+    
+    .img-container img:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+
+    .culture-div {
+        background: url("../img/asset27.png"), $nm-blue;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .img-container img {
+        width: 471px;
+        height: auto;
+    }
+
+    
+
+}
+
+@media (min-width:992px) and (max-width: 1260px){
+    // This hides the 3rd article in this viewport
+    .hidden-article {
+        display: none;
+    }
+}
+
+@media (min-width: 1260px) {
+    
+    .header-items,
+    .buttons-container,
+    .articles-container,
+    .clients-container,
+    .footer-container-contents,
+    .accredits,
+    .carousel-margin,
+    .navbar-buttons,
+    .article-header-container,
+    .content
+     {
+        width: 1200px;
+    }
+
+    .article-container {
+        width: 380px;
+    }
+
+    .aboutnm {
+        margin-left: 70px;
+    }
+
+    .social-media {
+        margin-left: 70px;
+    }
+
+    .contactus {
+        margin-left: 70px;
+    }
+
+    .website {
+        margin-left: 70px;
+    }
+
+    .clients {
+        height: 70px;
+        margin-left: 50px;
+    }
+
+    .busseys {
+        width: 188px;
+    }
+
+    .crane {
+        width:287px;
+    }
+
+    .beat {
+        width: 72px;
+    }
+
+    .diver {
+        width: 322px;
+    }
+
+    .nav-button {
+        width: 200px;
+    }
+
+    .tooltiptext1 {
+        right: -10px;
+    }
+    
+    .tooltiptext2 {
+        right: 55px;
+    }
+    
+    .tooltiptext3 {
+        right: -80px;
+    }
+    
+    .tooltiptext4 {
+        right: 75px;
+    }
+
+    .culture-div-container {
+        display: flex;
+        flex-direction: column;
+        width: 1100px;
+        margin: auto;
+        justify-content: flex-start;
+        
+    }
+
+    .culture-div {
+        height: 553px;
+    }
+
+
+    .search-button {
+        display: none;
+    }
+
+    .search-container-lrg {
+        display: inline-flex;
+    }
+
+    .buttons-container {
+        display:flex;
+        flex-direction: row;
+        height: 700px;
+        flex-wrap: wrap;
+        margin: 60px auto 30px;
+    }
+
+    .button-container {
+        margin: 0px;
+    }
+
+    #bespoke-software, 
+    #it-support,
+    #digital-marketing {
+        min-width: 360px; 
+        max-height: 356px;
+        width: 360px;
+        height: 356px;
+    }
+
+    #bespoke-software {
+        margin-right: 15px;
+    }
+
+    #it-support {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #digital-marketing {
+        margin-left: 15px;
+    }
+
+    #telecom-service,
+    #cyber-security, 
+    #web-design {
+        min-width: 270px;
+        max-height: 300px;
+        width: 270px;
+        margin: 30px 15px 0px 0px;
+    }
+    
+    #developer-training {
+        min-width: 270px;
+        max-height: 300px;
+        width: 270px;
+        margin: 30px 0px 0px 10px;
+    }
+
+    .footer-container{
+        height:309px;
+    }
+
+    .footer-container-contents {
+        flex-direction: row;
+        margin: auto auto;
+    }
+
+    .footer-container-contents .break {
+        display: none;
+    }
+
+    .social-media {
+        margin-right: 0px;
+    }
+
+    .support-button {
+        display: inline-flex;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-button {
+        padding-right: 20px;
+    }
+
+    .img-container img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+
+// IE media queries
+
+@media (min-width:400px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .burger-container  {
+        display:block;
+    }
+
+    .button-container p {
+        width: calc(100% - 2px); 
+    }
+
+    .footer-container {
+        height: 1000px;
+    }
+
+    .aboutnm ul {
+        margin-left: -30px;
+    }
+
+    .website ul {
+        margin-left: -30px;
+    }
+
+    .google-partner{
+        background: url("../img/GooglePartner-Copy.png") no-repeat center center;
+    }
+}
+
+
+@media (min-width:768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+   .social-media {
+       margin-left: 150px;
+   }
+
+   .aboutnm {
+       margin-left: 150px;
+   }
+   
+   .footer-container {
+    height: 550px;
+}
+}
+
+
+@media (min-width:992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .nav-button p {
+        margin-bottom: 1px;
+    }
+
+    .nav-icn {
+        padding-bottom: 0px;
+    }
+    
+    .article-container {
+        width: 60%;
+        max-height: 700px; 
+
+        p {
+            max-width: calc(100% - 2px); 
+        }  
+
+        p:first-of-type {
+            min-height: 66px;
+        }
+
+        .read-more-button {
+            height: 120px;
+        }
+
+    }
+
+    .img-container img {
+        height: auto;
+    }
+
+    .footer-container-contents {
+        justify-content: center;
+    }
+
+    .website h4 {
+        margin-left: 40px;
+
+        ul {
+            margin-left: -20px;
+        }
+    }
+
+    .social-media {
+        margin-left: 30px;
+    }
+
+    .aboutnm ul{
+        margin-left: -40px;
+    }
+
+
+   .website {
+       margin-right: 180px;
+       margin-left: -20px;
+
+       h4 {
+           margin-left: 2px;
+       }
+
+       ul {
+           margin-right: -40px;
+       }
+   }
+
+   .content a {
+       font-size: 16px;
+   }
+
+   .contactus {
+       margin-left: -150px;
+   }
+
+   .aboutnm {
+       margin-left: 170px;
+   }
+
+}
+
+@media (min-width: 1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+
+    .contact-button {
+        width: 200px;
+    }
+
+    .nav-button p {
+        margin-bottom: 1px;
+    }
+
+    .button-container p {
+        width: calc(100% - 2px); 
+    }
+
+    #developer-training p{
+        margin-bottom: -5px;
+    }
+
+    .article-container {
+        width: 40%;
+        max-height: 613px; 
+
+        p {
+            max-width: calc(100% - 2px); 
+        }  
+
+        p:first-of-type {
+            min-height: 66px;
+        }
+
+        .read-more-button {
+            height: 70px;
+        }
+
+        .read-more-button-dm {
+            height: 70px;
+        }
+    }
+
+    .img-container {
+        height: auto;
+    }
+
+    .footer-container-contents {
+        justify-content: center;
+    }
+
+    .footer-container {
+        height: 400px;
+    }
+
+    .contactus {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .aboutnm {
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    .website {
+        margin-left: 0px;
+        margin-right: 150px;
+    }
+
+    .social-media {
+        margin-left: 0px;
+    }
+}

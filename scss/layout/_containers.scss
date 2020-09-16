@@ -1,0 +1,306 @@
+// Header container
+
+.header-items,
+.carousel,
+.buttons-container,
+.culture-div,
+.articles-container,
+.clients-container,
+.footer-container-contents,
+.accredits
+{
+    margin: auto;
+}
+
+.buttons-container {
+    margin-top: 60px;
+}
+
+//  footer containers
+.footer-container {
+    background-color: $nm-blue;
+}
+
+.footer-container-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-contents p {
+    font-size: 0.8125rem;
+    color: white;
+}
+
+.footer-container-contents a {
+    font-size: 0.8125rem;
+    color: white;
+}
+
+.footer-container-contents h4 {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+
+.footer-container-contents ul li {
+    font-size: 0.8125rem;
+    color: white;
+}
+
+.footer-container-contents address {
+    font-size: 0.8125rem;
+    color: white;
+    font-style: normal;
+}
+
+// Social Media button container
+
+.social-media-buttons {
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+//Culture area
+
+.culture-div {
+    background-color: $nm-blue;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    height: 673px;
+}
+
+.culture-div h3 {
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    font-weight: 200;
+    font-size: 2.25rem;
+}
+
+.culture-div p {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.875rem;    
+}
+
+
+// Clients container
+
+.client-shadow {
+    box-shadow: inset 0px 1px 20px -6px #666666;
+    width: 100%;
+}
+
+.clients-container {
+    display: flex;
+    height: 170px;
+    align-items: center;
+}
+
+.client-container {
+    padding: 0px 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.clients {
+    height: 45px;
+}
+
+.busseys {
+    background: url("../img/asset 13.jpeg") no-repeat; 
+    background-size: 100% 100%; 
+    width: 122px;  
+}
+.busseys:hover {
+    background: url("../img/asset12.png") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.crane {
+    background: url("../img/asset 15.jpeg") no-repeat;  
+    background-size: 100% 100%; 
+    width: 185px;
+}
+
+.crane:hover {
+    background: url("../img/asset 14.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.beat {
+    background: url("../img/asset 17.jpeg") no-repeat; 
+    background-size: auto 100%; 
+    width: 45px;
+}
+
+.beat:hover {
+    background: url("../img/asset 16.png") no-repeat; 
+    background-size: auto 100%; 
+}
+
+.diver {
+    background: url("../img/asset 19.jpeg") no-repeat; 
+    background-size: 100% 100%;
+    width: 200px;
+      
+}
+
+.diver:hover {
+    background: url("../img/asset 18.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+// Accreditation container
+
+.accredits {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.carbon-charter {
+    width: 135px;
+}
+
+.google-partner{
+    background: url("../img/GooglePartner.jpg") no-repeat center center;
+    height: 100px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.silver-ms{
+    background: url("../img/asset20.jpeg") no-repeat center center;
+    width: 130px;
+    margin-left: -60px;
+    height: 100px;
+}
+
+.future-50 {
+    background: url("../img/asset21.jpeg") no-repeat center center;
+    height: 100px;
+    width: 40px;
+    
+}
+
+.future-50:hover {
+    background: url("../img/asset22.jpeg") no-repeat center center;
+}
+
+.qms {
+    background: url("../img/asset23.jpeg") no-repeat center center;
+    height: 100px;
+    width: 60px;
+    
+}
+
+.qms:hover {
+    background: url("../img/asset24.jpeg") no-repeat center center;
+}
+
+.carbon-charter {
+    background: url("../img/asset25.jpeg") no-repeat center center;
+    height: 100px;
+    width: 175px;
+}
+
+.carbon-charter:hover {
+    background: url("../img/asset26.jpeg") no-repeat center center;
+}
+
+.tooltiptext {
+visibility: hidden;
+width: 250px;
+color: white;
+text-align: center;
+background-color: $nm-blue;
+padding: 20px;
+//  Position the tooltip text
+position: absolute;
+z-index: 1;
+bottom: 100px;
+}
+
+.tooltiptext1 {
+    right: -50px;
+}
+
+.tooltiptext2 {
+    right: -5px;
+}
+
+.tooltiptext3 {
+    right: -95px;
+}
+
+.tooltiptext4 {
+    right: -10px;
+}
+
+.tooltiptext1::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+border-width: 30px;
+border-style: solid;
+border-color: $nm-blue transparent transparent transparent;
+margin-left: -25px;
+}
+
+.tooltiptext2::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+border-width: 30px;
+border-style: solid;
+border-color: $nm-blue transparent transparent transparent;
+margin-left: -25px;
+}
+
+.tooltiptext3::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+border-width: 30px;
+border-style: solid;
+border-color: $nm-blue transparent transparent transparent;
+margin-left: -40px;
+}
+
+.tooltiptext4::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+border-width: 30px;
+border-style: solid;
+border-color: $nm-blue transparent transparent transparent;
+margin-left: -30px;
+}
+
+//    Show the tooltip text when you mouse over the tooltip container 
+.client-container:hover .tooltiptext {
+visibility: visible;
+}
+
+.span-divide {
+width: 28px;
+height: 3px;
+margin: 0px auto 10px;
+background-color: white;
+}
+
+
+

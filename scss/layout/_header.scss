@@ -1,0 +1,145 @@
+//header container
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 15px;
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+// Netmatters logo 
+
+.logo-container {
+  width: 100%;
+}
+
+.header-items img {
+  height: auto;
+  max-width: 100%;
+  margin: 10px 0px 10px 10px;
+}
+
+// Phone icon styling
+
+.fa-phone-alt {
+  color: $nm-blue;
+  font-size: 24px; 
+  padding: 10px 0px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+
+
+
+// Search bar styling
+.search-container {
+  display: inline-flex;
+  width: 92%;
+  margin: 0px 10px 5px 10px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.1);
+  outline: 1px solid rgba(255,255,255,0.2);
+  border: 2px solid rgba(0,0,0,0.1);
+  height: 47px;
+
+}
+
+.search-container input {
+  padding-left: 10px;
+}
+
+.search-container input::placeholder {
+  color: #262626;
+  opacity: 1;
+}
+  
+.search-icon {
+  padding: 15px;
+  padding-right: 5px;
+  background-color: #d9d9d9; 
+  cursor:pointer; 
+  border-radius: 2px;
+  font-size: 21px;
+}
+
+.search-icon-2 {
+  padding: 15px;
+  padding-top: 20px;
+  background-color: #d9d9d9; 
+  cursor:pointer; 
+  border-radius: 2px;
+  font-size: 21px;
+}
+  
+.search-box {   
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+  border:none; 
+  background-color:#d9d9d9;
+}
+
+.support-button {
+  display: none;
+  background-color: #4183d7;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor:pointer;
+  height: 63px;
+  width: 144px;
+}
+
+.support-button:hover {
+  background-color: #2a6ec6;
+}
+
+.contact-button {
+  display: none;
+  background-color: #999AA2;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor:pointer;
+  height: 63px;
+  width: 144px;
+}
+
+.contact-button:hover {
+  background-color: #84858f;
+}
+
+.search-button {
+  display: none;
+  background-color: #999AA2;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px 5px;
+  cursor:pointer;
+  height: 56px;
+  font-size: 20px;
+}
+
+
+
+
+
+//navbar 
+
+.navbar {
+  display:none;
+}

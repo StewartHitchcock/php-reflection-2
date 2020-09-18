@@ -30,45 +30,37 @@
         display: flex;
         flex-wrap: wrap;
 
-        label, input {
-            display: block;
+        .form{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            li{
+
+                padding: 0px 15px;
+
+                input{
+
+                    padding: 5px 15px;
+                    height: 47px;
+                    width: 370px;
+                    
+                }
+
+                textarea{
+
+                    padding: 5px 15px;
+                    height: 100px;
+                    width: 770px;
+                }
+            }
         }
 
-        label{
-            font-size: 16px;
-            color: $nm-blue-dark;
-            font-weight: 600;
-        }
-        ul.form {
-            width  : 700px;
-            padding: 0px;
-            margin : 0px;
-            list-style-type: none;
-        }
-        ul.form li  {
-            width : 500px;
-            padding: 0px 15px;
-        }
-        ul.form li input {
-            width : 370px;
-            height: 47px;
-        }
-        ul.form li textarea {
-            width : 770px;
-            height: 100px;
-            padding: 5px 15px;
-        }
-        ul.form li.twoColumnPart {
-            float : left;
-            width : 340px;
-            height: 100px;
-            padding: 0px 15px;
-           
-        }
+
     }
 
     sup{
-        color: red;
+        color: green;
     }
     
 

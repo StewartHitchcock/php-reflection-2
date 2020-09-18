@@ -14,25 +14,26 @@
     <div class="cntct-layout-left">
 
         <form action="connect.php" method="post">
+            <h2>How Can We Help You?</h2>
             <ul class="form">
-                <li class="twoColumnPart">
-                    <label for="inputName">Name <sup class="sup">*</sup></label>
+                <li>
+                    <p>Name <sup class="sup">*</sup></p>
                     <input class="nameinput id="inputName" type="text" value="" name="name" required>
                 </li>
-                <li class="twoColumnPart">
-                    <label for="inputEmail">Email <sup class="sup">*</sup></label>
+                <li>
+                    <p>Email <sup class="sup">*</sup></p>
                     <input class="emailinput id="inputEmail" type="text" value="" name="email" required>
                 </li>
-                <li class="twoColumnPart">
-                    <label for="inputTelephone">Your Telephone Number <sup class="sup">*</sup></label>
+                <li>
+                    <p>Your Telephone Number <sup class="sup">*</sup></p>
                     <input class="telephoneinput id="inputTelephone" type="text" value="" name="telephone"  required >
                 </li>
-                <li class="twoColumnPart">
-                    <label for="inputSubject">Subject <sup class="sup">*</sup></label>
+                <li>
+                    <p>Subject <sup class="sup">*</sup></p>
                     <input class="subjectinput" id="inputSubject" type="text" value="" name="subject" required>
                 </li>
                 <li>
-                    <label for="inputMessage">Message <sup class="sup">*</sup></label>
+                    <p>Message <sup class="sup">*</sup></p>
                     <textarea class="messageinput" id="inputMessage" type="text" name="message" value=" " required> </textarea>
 
                 </li>

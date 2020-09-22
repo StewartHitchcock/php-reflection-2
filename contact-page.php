@@ -13,33 +13,35 @@
 <div class="cntct-layout media">
     <div class="cntct-layout-left">
 
-        <form action="connect.php" method="post">
+        <form method="post" action="connect.php">  
             <h2>How Can We Help You?</h2>
             <ul class="form">
                 <li>
                     <p>Name <sup class="sup">*</sup></p>
-                    <input class="nameinput id="inputName" type="text" value="" name="name" required>
+                    <input class="nameinput" id="inputName" type="text" value="" name="name" >
                 </li>
                 <li>
                     <p>Email <sup class="sup">*</sup></p>
-                    <input class="emailinput id="inputEmail" type="text" value="" name="email" required>
+                    <input class="emailinput" id="inputEmail" type="text" value="" name="email" >
                 </li>
                 <li>
                     <p>Your Telephone Number <sup class="sup">*</sup></p>
-                    <input class="telephoneinput id="inputTelephone" type="text" value="" name="telephone"  required >
+                    <input class="telephoneinput" id="inputTelephone" type="text" value="" name="telephone"   >
                 </li>
                 <li>
                     <p>Subject <sup class="sup">*</sup></p>
-                    <input class="subjectinput" id="inputSubject" type="text" value="" name="subject" required>
+                    <input class="subjectinput" id="inputSubject" type="text" value="" name="subject" >
                 </li>
                 <li>
                     <p>Message <sup class="sup">*</sup></p>
-                    <textarea class="messageinput" id="inputMessage" type="text" name="message" value=" " required> </textarea>
+                    <textarea class="messageinput" id="inputMessage" type="text" name="message" value=""> </textarea>
 
                 </li>
-
+                <li id="checkbox">
+                    <p><input type="checkbox">Please tick this box if you wish to receive marketing information from us. Please see our Privacy Policy for more information on how we use your data </p>
+                </li>
                 <li>
-                    <input type="submit" value="Send Enquiry">
+                    <input type="button" value="Send Enquiry" name = "submit" id="submit">
                 </li>
             </ul>
         </form>

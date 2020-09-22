@@ -36,8 +36,14 @@
             flex-wrap: wrap;
 
             li{
-
+                list-style-type: none;
                 padding: 0px 15px;
+
+                p{
+                    color: $nm-blue;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
 
                 input{
 
@@ -53,14 +59,42 @@
                     height: 100px;
                     width: 770px;
                 }
+
+                input[type=submit]{
+                    color: white;
+                    background-color: $nm-blue;
+                    text-transform: uppercase;
+                    padding: 5px 15px;
+                    height: 47px;
+                    width: 149px;
+                    font-size: 17px;
+                    text-align: center;
+                }
             }
+
+            .checkbox{
+                display: flex;
+                flex-direction: row;
+            }
+
+            
+            input[type=checkbox]{
+                
+                height: 32px;
+                width: 32px; 
+                padding: 0px;
+                margin-right: 20px;
+                border-radius: 3px;
+                border: 3px solid $nm-blue;
+            }
+
         }
 
 
     }
 
     sup{
-        color: green;
+        color: red;
     }
     
 
@@ -235,6 +269,16 @@
 
 }
 
-.error{
+input[data-state="invalid"] {
     border-color: red;
 }
+
+input[data-state="invalid"] {
+    border-color: black;
+}
+
+.error{
+    border: red solid 2px;
+
+}
+

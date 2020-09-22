@@ -72,6 +72,7 @@
                 <script src="js/pushy-1.3.0/js/pushy.min.js"></script>
                 <script src="js/app.js"></script>
                 <script src="js/cookie.js"></script>
+                <script src="js/functions.js"></script>
                 
             </body>
         

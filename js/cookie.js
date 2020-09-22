@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function(){
     if(cookieAccept === 'true'){
         popUp.style.display = "none";
         popUpBckGrnd.style.display = "none";
-        console.log('true')
+        
     } else {
         console.log('false')
     }

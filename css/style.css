@@ -1569,15 +1569,55 @@ body {
   }
 }
 
+.background-contact {
+  background-color: #f2f2f2;
+}
+
+.top-cntct-ctn-bckgrnd {
+  border-top: black solid 1px;
+}
+
 .top-cntct-ctn {
-  display: flex;
+  display: none;
   height: 45px;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .top-cntct-ctn {
+    display: flex;
+  }
+}
+
+.header-cntct-bckgrnd {
+  width: 100%;
+  background-color: #333645;
+}
+@media screen and (min-width: 992px) {
+  .header-cntct-bckgrnd {
+    background-color: #f2f2f2;
+  }
+}
+
+.header-cntct {
+  padding-top: 20px;
+  background-color: #333645;
+  color: white;
+  height: 87px;
+}
+.header-cntct h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 400;
 }
 
 .cntct-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 1259px) {
+  .cntct-layout {
+    flex-direction: row;
+  }
 }
 .cntct-layout .cntct-layout-left {
   width: 66%;
@@ -1588,10 +1628,11 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-right: 30px;
 }
 .cntct-layout .cntct-layout-left .form li {
   list-style-type: none;
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 .cntct-layout .cntct-layout-left .form li p {
   color: #333645;
@@ -1637,6 +1678,7 @@ body {
   width: 33%;
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }
 .cntct-layout .cntct-layout-right p {
   font-size: 16px;
@@ -1656,9 +1698,12 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
+.office-left {
+  background-color: white;
+}
 .office-left .office-left-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
@@ -1679,18 +1724,25 @@ body {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   width: 555px;
   height: 309px;
-  margin-top: 30px;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.office-left .office-left-inner address {
+  font-size: 13px;
+  line-height: 22px;
+}
+.office-left .office-left-inner h5 {
+  font-size: 18px;
+  margin-bottom: 11px;
 }
 .office-left .office-left-inner .office-icn {
   border-radius: 100px;
   height: 60px;
   width: 60px;
   background-color: #21222c;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 .office-left .office-left-inner .office-icn i {
   font-size: 30px;
@@ -1703,8 +1755,12 @@ body {
   width: 20px;
   height: 3px;
   background-color: #333645;
+  margin: 10px 0px;
 }
 
+.office-right {
+  background-color: white;
+}
 .office-right .office-right-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
@@ -1725,18 +1781,25 @@ body {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   width: 555px;
   height: 309px;
-  margin-top: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+.office-right .office-right-inner address {
+  font-size: 13px;
+  line-height: 22px;
+}
+.office-right .office-right-inner h5 {
+  font-size: 18px;
+  margin-bottom: 11px;
 }
 .office-right .office-right-inner .office-icn {
   border-radius: 100px;
   height: 60px;
   width: 60px;
   background-color: #21222c;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 .office-right .office-right-inner .office-icn i {
   font-size: 30px;
@@ -1775,14 +1838,6 @@ body {
 }
 .cntct-success h1 {
   text-align: center;
-}
-
-input[data-state=invalid] {
-  border-color: red;
-}
-
-input[data-state=invalid] {
-  border-color: black;
 }
 
 .error {

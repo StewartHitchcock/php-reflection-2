@@ -14,16 +14,66 @@
     }
 }
 
+.background-contact{
+    background-color: #f2f2f2;
+}
+
+
+.top-cntct-ctn-bckgrnd{
+    border-top: black solid 1px;
+}
 
 .top-cntct-ctn{
-    display: flex;
+    display: none;
     height: 45px;
     align-items: center;
+    
+
+    @media screen and (min-width: 768px){
+        display: flex;
+    }
+    
+}
+
+.header-cntct-bckgrnd{
+
+    width: 100%;
+    background-color: $nm-blue;
+
+    @media screen and (min-width: 992px){
+
+        background-color: #f2f2f2;
+    }
+}
+
+
+
+.header-cntct{
+
+    padding-top: 20px;
+    background-color: $nm-blue;
+    color: white;
+    height: 87px;
+    
+
+    h2{
+        font-size: 36px;
+        margin-bottom: 50px;
+        font-weight: 400;
+    
+    }
+
+
 }
 
 .cntct-layout{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+
+    @media screen and (min-width: 1259px){
+        flex-direction: row;
+    }
+    
     
     .cntct-layout-left{
         width: 66%;
@@ -34,10 +84,11 @@
             display:flex;
             flex-direction: row;
             flex-wrap: wrap;
+            padding-right: 30px;
 
             li{
                 list-style-type: none;
-                padding: 0px 15px;
+                padding: 10px 15px;
 
                 p{
                     color: $nm-blue;
@@ -102,6 +153,7 @@
         width: 33%;
         display: flex;
         flex-direction: column;
+        padding: 15px;
 
        p{
            font-size: 16px;
@@ -124,10 +176,11 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .office-left{
+    background-color: white;
     
     .office-left-inner:hover{
         cursor: pointer;
@@ -154,18 +207,31 @@
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
         width:555px;
         height: 309px;
-        margin-top: 30px;
+        
         text-align: center;
         display: flex;
         align-items: center;
         flex-direction: column;
+
+        address{
+
+            font-size: 13px;
+            line-height: 22px;
+
+        }
+
+        
+        h5{
+            font-size: 18px;
+            margin-bottom: 11px;
+        }
 
         .office-icn{
             border-radius: 100px;
             height: 60px;
             width: 60px;
             background-color: $nm-blue-dark;
-            margin-bottom: 2px;
+            margin-bottom: 10px;
 
             i{
                 font-size: 30px;
@@ -181,9 +247,12 @@
     width: 20px;
     height: 3px;
     background-color: $nm-blue;
+    margin: 10px 0px;
+    
 }
 
 .office-right{
+    background-color: white;
 
     .office-right-inner:hover{
         cursor: pointer;
@@ -209,18 +278,30 @@
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
         width:555px;
         height: 309px;
-        margin-top: 30px;
+        
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
+
+        address{
+
+            font-size: 13px;
+            line-height: 22px;
+
+        }
+
+        h5{
+            font-size: 18px;
+            margin-bottom: 11px;
+        }
 
         .office-icn{
             border-radius: 100px;
             height: 60px;
             width: 60px;
             background-color: $nm-blue-dark;
-            margin-bottom: 2px;
+            margin-bottom: 10px;
 
             i{
                 font-size: 30px;
@@ -269,13 +350,6 @@
 
 }
 
-input[data-state="invalid"] {
-    border-color: red;
-}
-
-input[data-state="invalid"] {
-    border-color: black;
-}
 
 .error{
     border: red solid 2px;

@@ -1879,61 +1879,160 @@ body {
   }
 }
 
-/* line 18, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 16, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.cntct-link {
+  text-decoration: none;
+}
+
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.background-contact {
+  background-color: #f2f2f2;
+}
+
+/* line 25, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.top-cntct-ctn-bckgrnd {
+  border-top: black solid 1px;
+}
+
+/* line 29, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .top-cntct-ctn {
-  display: flex;
+  display: none;
   height: 45px;
   align-items: center;
 }
 
-/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 768px) {
+  /* line 29, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .top-cntct-ctn {
+    display: flex;
+  }
+}
+
+/* line 41, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.header-cntct-bckgrnd {
+  width: 100%;
+  background-color: #333645;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 41, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .header-cntct-bckgrnd {
+    background-color: #f2f2f2;
+  }
+}
+
+/* line 55, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.header-cntct {
+  padding-top: 20px;
+  color: white;
+  height: 87px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 55, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .header-cntct {
+    color: black;
+  }
+}
+
+/* line 68, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.header-cntct h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+/* line 78, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 
-/* line 28, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 1259px) {
+  /* line 78, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout {
+    flex-direction: row;
+  }
+}
+
+/* line 87, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left {
-  width: 66%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 33, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 92, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  padding-right: 30px;
 }
 
-/* line 38, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 992px) {
+  /* line 92, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-left .form {
+    flex-direction: row;
+  }
+}
+
+/* line 102, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li {
   list-style-type: none;
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 
-/* line 42, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 106, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li p {
   color: #333645;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-/* line 48, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li input {
   padding: 5px 15px;
   height: 47px;
-  width: 370px;
+  width: 400px;
 }
 
-/* line 56, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 700px) {
+  /* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-left .form li input {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-left .form li input {
+    width: 370px;
+  }
+}
+
+/* line 130, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li textarea {
   padding: 5px 15px;
   height: 100px;
-  width: 770px;
+  width: 400px;
 }
 
-/* line 63, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 700px) {
+  /* line 130, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-left .form li textarea {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 130, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-left .form li textarea {
+    width: 770px;
+  }
+}
+
+/* line 146, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li input[type=submit] {
   color: white;
   background-color: #333645;
@@ -1945,13 +2044,13 @@ body {
   text-align: center;
 }
 
-/* line 75, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 158, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form .checkbox {
   display: flex;
   flex-direction: row;
 }
 
-/* line 81, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 164, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form input[type=checkbox] {
   height: 32px;
   width: 32px;
@@ -1961,26 +2060,34 @@ body {
   border: 3px solid #333645;
 }
 
-/* line 96, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 179, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout sup {
   color: red;
 }
 
-/* line 101, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 184, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right {
-  width: 33%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }
 
-/* line 106, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 992px) {
+  /* line 184, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .cntct-layout .cntct-layout-right {
+    width: 33%;
+  }
+}
+
+/* line 195, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right p {
   font-size: 16px;
   font-weight: 600;
   color: #333645;
 }
 
-/* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 201, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right a {
   color: #926fb1;
   padding-bottom: 15px;
@@ -1989,61 +2096,105 @@ body {
   text-decoration: none;
 }
 
-/* line 122, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 211, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .offices {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-/* line 132, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+@media screen and (min-width: 768px) {
+  /* line 211, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .offices {
+    flex-direction: row;
+  }
+}
+
+/* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-left {
+  background-color: white;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-left {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-left {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 1259px) {
+  /* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-left {
+    width: 555px;
+  }
+}
+
+/* line 241, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
 }
 
-/* line 137, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 246, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover h5 {
   color: white;
 }
 
-/* line 141, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 250, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover address {
   color: white;
 }
 
-/* line 146, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 255, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover .cntct-line {
   background-color: white;
 }
 
-/* line 150, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 259, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner {
   border: solid 1px black;
   border-radius: 3px;
   padding: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
-  width: 555px;
   height: 309px;
-  margin-top: 30px;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-/* line 163, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 272, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-left .office-left-inner address {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* line 280, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-left .office-left-inner h5 {
+  font-size: 18px;
+  margin-bottom: 11px;
+}
+
+/* line 285, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner .office-icn {
   border-radius: 100px;
   height: 60px;
   width: 60px;
   background-color: #21222c;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
-/* line 170, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 292, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner .office-icn i {
   font-size: 30px;
   position: relative;
@@ -2051,59 +2202,98 @@ body {
   color: white;
 }
 
-/* line 180, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 301, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-line {
   width: 20px;
   height: 3px;
   background-color: #333645;
+  margin: 10px 0px;
 }
 
-/* line 188, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 309, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-right {
+  background-color: white;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 309, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-right {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 309, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-right {
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 1259px) {
+  /* line 309, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  .office-right {
+    width: 555px;
+  }
+}
+
+/* line 326, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
 }
 
-/* line 193, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 331, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover h5 {
   color: white;
 }
 
-/* line 197, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 335, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover address {
   color: white;
 }
 
-/* line 201, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 339, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover .cntct-line {
   background-color: white;
 }
 
-/* line 205, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 343, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner {
   border: solid 1px black;
   border-radius: 3px;
-  padding: 30px;
+  padding: 30px 0px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
-  width: 555px;
   height: 309px;
-  margin-top: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
 
-/* line 218, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 356, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-right .office-right-inner address {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+/* line 363, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+.office-right .office-right-inner h5 {
+  font-size: 18px;
+  margin-bottom: 11px;
+  width: 95%;
+}
+
+/* line 372, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner .office-icn {
   border-radius: 100px;
   height: 60px;
   width: 60px;
   background-color: #21222c;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
-/* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 379, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner .office-icn i {
   font-size: 30px;
   position: relative;
@@ -2111,13 +2301,13 @@ body {
   color: white;
 }
 
-/* line 235, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 391, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success {
   height: 300px;
   width: 100vw;
 }
 
-/* line 239, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 395, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-contents {
   margin-top: 200px;
   display: flex;
@@ -2125,7 +2315,7 @@ body {
   align-items: center;
 }
 
-/* line 246, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 402, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-btn {
   height: 70px;
   width: 140px;
@@ -2142,29 +2332,53 @@ body {
   text-decoration: none;
 }
 
-/* line 262, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 418, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-btn:hover {
   background-color: #926fb1;
 }
 
-/* line 266, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 422, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success h1 {
   text-align: center;
 }
 
-/* line 272, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
-input[data-state="invalid"] {
-  border-color: red;
-}
-
-/* line 276, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
-input[data-state="invalid"] {
-  border-color: black;
-}
-
-/* line 280, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+/* line 429, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .error {
   border: red solid 2px;
+}
+
+/* line 434, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+iframe {
+  width: 490px;
+  height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 434, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  iframe {
+    width: 440px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 434, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  iframe {
+    width: 330px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 434, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  iframe {
+    width: 440px !important;
+  }
+}
+
+@media screen and (min-width: 1259px) {
+  /* line 434, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+  iframe {
+    width: 555px !important;
+  }
 }
 
 /* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */

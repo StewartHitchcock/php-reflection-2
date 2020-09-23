@@ -8,36 +8,100 @@
         width: 970px;
     }
 
-
     @media (min-width: 1260px){
         width: 1200px;
     }
 }
 
+.cntct-link{
+    text-decoration: none;
+}
+
+.background-contact{
+    background-color: #f2f2f2;
+}
+
+
+.top-cntct-ctn-bckgrnd{
+    border-top: black solid 1px;
+}
 
 .top-cntct-ctn{
-    display: flex;
+    display: none;
     height: 45px;
     align-items: center;
+    
+
+    @media screen and (min-width: 768px){
+        display: flex;
+    }
+    
+}
+
+.header-cntct-bckgrnd{
+
+    width: 100%;
+    background-color: $nm-blue;
+
+    @media screen and (min-width: 992px){
+
+        background-color: #f2f2f2;
+    }
+}
+
+
+
+
+.header-cntct{
+
+    padding-top: 20px;
+    
+    color: white;
+    height: 87px;
+
+    @media screen and (min-width: 992px){
+
+        color: black;
+    }
+    
+
+    h2{
+        font-size: 36px;
+        margin-bottom: 50px;
+        font-weight: 400;
+    
+    }
+
+
 }
 
 .cntct-layout{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+
+    @media screen and (min-width: 1259px){
+        flex-direction: row;
+    }
+    
     
     .cntct-layout-left{
-        width: 66%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
 
         .form{
             display:flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
+            padding-right: 30px;
+
+            @media screen and (min-width: 992px){
+                flex-direction: row;
+            }
 
             li{
                 list-style-type: none;
-                padding: 0px 15px;
+                padding: 10px 15px;
 
                 p{
                     color: $nm-blue;
@@ -49,7 +113,17 @@
 
                     padding: 5px 15px;
                     height: 47px;
-                    width: 370px;
+                    // width: 370px;
+                    width: 400px;
+
+                    
+                    @media screen and (min-width: 700px){
+                        width: 650px;
+                    }
+
+                    @media screen and (min-width: 992px){
+                        width: 370px;
+                    }
                     
                 }
 
@@ -57,7 +131,16 @@
 
                     padding: 5px 15px;
                     height: 100px;
-                    width: 770px;
+                    // width: 770px;
+                    width: 400px;
+
+                    @media screen and (min-width: 700px){
+                        width: 650px;
+                    }
+
+                    @media screen and (min-width: 992px){
+                        width: 770px;
+                    }
                 }
 
                 input[type=submit]{
@@ -99,9 +182,15 @@
     
 
     .cntct-layout-right {
-        width: 33%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 15px;
+
+        
+    @media screen and (min-width: 992px){
+        width: 33%;
+    }
 
        p{
            font-size: 16px;
@@ -121,13 +210,33 @@
 
 .offices{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px){
+
+        flex-direction: row;
+
+    }
 }
 
 .office-left{
+    background-color: white;
+    margin: auto;
+
+    @media screen and (min-width: 768px){
+        width: 330px;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px;
+    }
     
     .office-left-inner:hover{
         cursor: pointer;
@@ -152,26 +261,38 @@
         border-radius: 3px;
         padding: 30px;
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
-        width:555px;
+        // width:555px;
         height: 309px;
-        margin-top: 30px;
+        
         text-align: center;
         display: flex;
         align-items: center;
         flex-direction: column;
+
+        address{
+
+            font-size: 13px;
+            line-height: 22px;
+
+        }
+
+        
+        h5{
+            font-size: 18px;
+            margin-bottom: 11px;
+        }
 
         .office-icn{
             border-radius: 100px;
             height: 60px;
             width: 60px;
             background-color: $nm-blue-dark;
-            margin-bottom: 2px;
+            margin-bottom: 10px;
 
             i{
                 font-size: 30px;
                 position: relative;
                 top: 13px;
-                
                 color: white;
             }
         }
@@ -181,9 +302,26 @@
     width: 20px;
     height: 3px;
     background-color: $nm-blue;
+    margin: 10px 0px;
+    
 }
 
 .office-right{
+    background-color: white;
+    margin: auto;
+
+    
+    @media screen and (min-width: 768px){
+        width: 330px;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px;
+    }
 
     .office-right-inner:hover{
         cursor: pointer;
@@ -205,22 +343,38 @@
     .office-right-inner{
         border: solid 1px black;
         border-radius: 3px;
-        padding: 30px;
+        padding: 30px 0px;
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
-        width:555px;
+        // width:555px;
         height: 309px;
-        margin-top: 30px;
+        
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
+
+        address{
+
+            font-size: 13px;
+            line-height: 22px;
+
+        }
+
+        h5{
+            font-size: 18px;
+            margin-bottom: 11px;
+            width: 95%;
+        }
+
+        
+
 
         .office-icn{
             border-radius: 100px;
             height: 60px;
             width: 60px;
             background-color: $nm-blue-dark;
-            margin-bottom: 2px;
+            margin-bottom: 10px;
 
             i{
                 font-size: 30px;
@@ -228,6 +382,8 @@
                 top: 13px;
                 color: white;
             }
+
+            
         }
     }
 }
@@ -269,16 +425,30 @@
 
 }
 
-input[data-state="invalid"] {
-    border-color: red;
-}
-
-input[data-state="invalid"] {
-    border-color: black;
-}
 
 .error{
     border: red solid 2px;
 
 }
 
+iframe{
+
+    width: 490px;
+    height:300px;
+
+    @media screen and (max-width: 767px){
+        width: 440px !important;
+    }
+    
+    @media screen and (min-width: 768px){
+        width: 330px !important;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px !important;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px !important;
+    }
+}

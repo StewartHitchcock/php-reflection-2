@@ -1,3 +1,4 @@
+/* line 3, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 * {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
@@ -6,18 +7,21 @@
   padding-inline-start: 0px;
 }
 
+/* line 12, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 body {
-  letter-spacing: 0.4px;
+  letter-spacing: .4px;
   line-height: 1.42857143;
   margin: 0px;
   overflow: hidden;
   position: relative;
 }
 
+/* line 22, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 .open {
   margin-right: 250px;
 }
 
+/* line 26, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 .stop-scroll {
   height: 100vh;
   width: 100vw;
@@ -26,6 +30,7 @@ body {
   position: absolute;
 }
 
+/* line 34, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 #scrollbar {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -34,12 +39,14 @@ body {
   position: relative;
 }
 
+/* line 42, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/base/_base.scss */
 .sb-class {
   position: absolute;
   right: 350px;
   width: 100%;
 }
 
+/* line 3, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .header-items,
 .carousel,
 .buttons-container,
@@ -51,29 +58,35 @@ body {
   margin: auto;
 }
 
+/* line 15, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .buttons-container {
   margin-top: 60px;
 }
 
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container {
   background-color: #333645;
 }
 
+/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents {
   display: flex;
   flex-direction: column;
 }
 
+/* line 29, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents p {
   font-size: 0.8125rem;
   color: white;
 }
 
+/* line 34, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents a {
   font-size: 0.8125rem;
   color: white;
 }
 
+/* line 39, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents h4 {
   font-size: 1rem;
   color: white;
@@ -81,22 +94,26 @@ body {
   text-transform: uppercase;
 }
 
+/* line 46, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents ul li {
   font-size: 0.8125rem;
   color: white;
 }
 
+/* line 51, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .footer-container-contents address {
   font-size: 0.8125rem;
   color: white;
   font-style: normal;
 }
 
+/* line 59, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .social-media-buttons {
   flex-flow: wrap;
   justify-content: space-between;
 }
 
+/* line 66, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .culture-div {
   background-color: #333645;
   padding: 50px 15px;
@@ -105,6 +122,7 @@ body {
   height: 673px;
 }
 
+/* line 74, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .culture-div h3 {
   color: white;
   text-transform: uppercase;
@@ -114,6 +132,7 @@ body {
   font-size: 2.25rem;
 }
 
+/* line 83, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .culture-div p {
   color: white;
   margin-bottom: 25px;
@@ -122,71 +141,84 @@ body {
   line-height: 1.875rem;
 }
 
+/* line 94, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .client-shadow {
   box-shadow: inset 0px 1px 20px -6px #666666;
   width: 100%;
 }
 
+/* line 99, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .clients-container {
   display: flex;
   height: 170px;
   align-items: center;
 }
 
+/* line 105, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .client-container {
   padding: 0px 20px;
   position: relative;
   display: inline-block;
 }
 
+/* line 111, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .clients {
   height: 45px;
 }
 
+/* line 115, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .busseys {
   background: url("../img/asset 13.jpeg") no-repeat;
   background-size: 100% 100%;
   width: 122px;
 }
 
+/* line 120, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .busseys:hover {
   background: url("../img/asset12.png") no-repeat;
   background-size: 100% 100%;
 }
 
+/* line 125, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .crane {
   background: url("../img/asset 15.jpeg") no-repeat;
   background-size: 100% 100%;
   width: 185px;
 }
 
+/* line 131, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .crane:hover {
   background: url("../img/asset 14.png") no-repeat;
   background-size: 100% 100%;
 }
 
+/* line 136, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .beat {
   background: url("../img/asset 17.jpeg") no-repeat;
   background-size: auto 100%;
   width: 45px;
 }
 
+/* line 142, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .beat:hover {
   background: url("../img/asset 16.png") no-repeat;
   background-size: auto 100%;
 }
 
+/* line 147, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .diver {
   background: url("../img/asset 19.jpeg") no-repeat;
   background-size: 100% 100%;
   width: 200px;
 }
 
+/* line 154, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .diver:hover {
   background: url("../img/asset 18.png") no-repeat;
   background-size: 100% 100%;
 }
 
+/* line 161, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .accredits {
   display: flex;
   flex-direction: row;
@@ -196,10 +228,12 @@ body {
   margin-bottom: 20px;
 }
 
+/* line 170, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .carbon-charter {
   width: 135px;
 }
 
+/* line 174, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .google-partner {
   background: url("../img/GooglePartner.jpg") no-repeat center center;
   height: 100px;
@@ -207,6 +241,7 @@ body {
   margin-right: 50px;
 }
 
+/* line 181, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .silver-ms {
   background: url("../img/asset20.jpeg") no-repeat center center;
   width: 130px;
@@ -214,36 +249,43 @@ body {
   height: 100px;
 }
 
+/* line 188, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .future-50 {
   background: url("../img/asset21.jpeg") no-repeat center center;
   height: 100px;
   width: 40px;
 }
 
+/* line 195, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .future-50:hover {
   background: url("../img/asset22.jpeg") no-repeat center center;
 }
 
+/* line 199, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .qms {
   background: url("../img/asset23.jpeg") no-repeat center center;
   height: 100px;
   width: 60px;
 }
 
+/* line 206, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .qms:hover {
   background: url("../img/asset24.jpeg") no-repeat center center;
 }
 
+/* line 210, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .carbon-charter {
   background: url("../img/asset25.jpeg") no-repeat center center;
   height: 100px;
   width: 175px;
 }
 
+/* line 216, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .carbon-charter:hover {
   background: url("../img/asset26.jpeg") no-repeat center center;
 }
 
+/* line 220, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext {
   visibility: hidden;
   width: 250px;
@@ -256,22 +298,27 @@ body {
   bottom: 100px;
 }
 
+/* line 233, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext1 {
   right: -50px;
 }
 
+/* line 237, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext2 {
   right: -5px;
 }
 
+/* line 241, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext3 {
   right: -95px;
 }
 
+/* line 245, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext4 {
   right: -10px;
 }
 
+/* line 249, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext1::after {
   content: "";
   position: absolute;
@@ -283,6 +330,7 @@ body {
   margin-left: -25px;
 }
 
+/* line 260, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext2::after {
   content: "";
   position: absolute;
@@ -294,6 +342,7 @@ body {
   margin-left: -25px;
 }
 
+/* line 271, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext3::after {
   content: "";
   position: absolute;
@@ -305,6 +354,7 @@ body {
   margin-left: -40px;
 }
 
+/* line 282, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .tooltiptext4::after {
   content: "";
   position: absolute;
@@ -316,10 +366,12 @@ body {
   margin-left: -30px;
 }
 
+/* line 294, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .client-container:hover .tooltiptext {
   visibility: visible;
 }
 
+/* line 298, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_containers.scss */
 .span-divide {
   width: 28px;
   height: 3px;
@@ -327,6 +379,7 @@ body {
   background-color: white;
 }
 
+/* line 3, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .header-items {
   display: flex;
   flex-direction: row;
@@ -336,21 +389,25 @@ body {
   align-items: center;
 }
 
+/* line 13, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .break {
   flex-basis: 100%;
   height: 0;
 }
 
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .logo-container {
   width: 100%;
 }
 
+/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .header-items img {
   height: auto;
   max-width: 100%;
   margin: 10px 0px 10px 10px;
 }
 
+/* line 32, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .fa-phone-alt {
   color: #333645;
   font-size: 24px;
@@ -359,6 +416,7 @@ body {
   margin-right: 50px;
 }
 
+/* line 44, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-container {
   display: inline-flex;
   width: 92%;
@@ -370,15 +428,18 @@ body {
   height: 47px;
 }
 
+/* line 56, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-container input {
   padding-left: 10px;
 }
 
+/* line 60, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-container input::placeholder {
   color: #262626;
   opacity: 1;
 }
 
+/* line 65, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-icon {
   padding: 15px;
   padding-right: 5px;
@@ -388,6 +449,7 @@ body {
   font-size: 21px;
 }
 
+/* line 74, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-icon-2 {
   padding: 15px;
   padding-top: 20px;
@@ -397,6 +459,7 @@ body {
   font-size: 21px;
 }
 
+/* line 83, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-box {
   padding: 0.5rem 0.5rem 0.5rem 0;
   flex: 1;
@@ -404,6 +467,7 @@ body {
   background-color: #d9d9d9;
 }
 
+/* line 90, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .support-button {
   display: none;
   background-color: #4183d7;
@@ -418,10 +482,12 @@ body {
   width: 144px;
 }
 
+/* line 104, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .support-button:hover {
   background-color: #2a6ec6;
 }
 
+/* line 108, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .contact-button {
   display: none;
   background-color: #999AA2;
@@ -435,10 +501,12 @@ body {
   width: 144px;
 }
 
+/* line 121, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .contact-button:hover {
   background-color: #84858f;
 }
 
+/* line 125, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .search-button {
   display: none;
   background-color: #999AA2;
@@ -451,73 +519,89 @@ body {
   font-size: 20px;
 }
 
+/* line 143, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_header.scss */
 .navbar {
   display: none;
 }
 
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .footer-container {
   height: 894px;
   padding: 47px 0px 43px;
 }
 
+/* line 6, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .footer-container-contents {
   margin: 0px 30px;
 }
 
+/* line 12, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .contactus {
   margin: 0px 0px 30px;
   line-height: normal;
 }
 
+/* line 19, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .contactus a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .contactus a:hover {
   text-decoration: underline;
 }
 
+/* line 30, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .aboutnm {
   margin: 0px 0px 30px;
   line-height: normal;
 }
 
+/* line 35, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .aboutnm li {
   list-style-type: none;
 }
 
+/* line 39, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .aboutnm a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* line 44, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .aboutnm a:hover {
   text-decoration: underline;
 }
 
+/* line 51, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .website {
   margin: 0px 0px 30px;
   line-height: normal;
 }
 
+/* line 56, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .website li {
   list-style-type: none;
 }
 
+/* line 60, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .website a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* line 65, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .website a:hover {
   text-decoration: underline;
 }
 
+/* line 71, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_footer.scss */
 .social-media {
   margin: 0px 0px 30px;
 }
 
+/* line 4, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-facebook {
   background-color: rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
@@ -529,10 +613,12 @@ body {
   padding: 10px 0px;
 }
 
+/* line 15, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-facebook:hover {
   background-color: #3b5998;
 }
 
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-twitter {
   background-color: rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
@@ -544,10 +630,12 @@ body {
   padding: 10px 0px;
 }
 
+/* line 31, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-twitter:hover {
   background-color: #00aced;
 }
 
+/* line 36, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-linkedin {
   background-color: rgba(0, 0, 0, 0.25);
   width: 45%;
@@ -558,10 +646,12 @@ body {
   padding: 10px 0px;
 }
 
+/* line 47, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .social-button-linkedin:hover {
   background-color: #0077b5;
 }
 
+/* line 53, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .read-more-button {
   background-color: #926fb1;
   border: none;
@@ -575,11 +665,13 @@ body {
   font-size: 18px;
 }
 
+/* line 66, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .read-more-button:hover {
   background-color: #7e57a0;
   border-color: #735093;
 }
 
+/* line 71, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .read-more-button-dm {
   background-color: #2ecc71;
   border: none;
@@ -593,11 +685,13 @@ body {
   font-size: 18px;
 }
 
+/* line 84, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .read-more-button-dm:hover {
   background-color: #26ab5f;
   border-color: #239a55;
 }
 
+/* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .img-container {
   position: relative;
   width: 100%;
@@ -605,24 +699,27 @@ body {
   cursor: pointer;
 }
 
+/* line 99, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .img-container img {
   width: 100%;
   height: auto;
 }
 
+/* line 104, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .img-container .img-button {
   position: absolute;
   top: 10px;
   right: 0;
   background-color: #926fb1;
   color: white;
-  font-size: 0.75rem;
+  font-size: .75rem;
   padding: 0px 10px;
   border: none;
   cursor: pointer;
   text-align: center;
 }
 
+/* line 119, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .culture-div button {
   width: 170px;
   text-transform: uppercase;
@@ -633,15 +730,18 @@ body {
   cursor: pointer;
 }
 
+/* line 129, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .culture-div button:hover {
   opacity: 0.8;
 }
 
+/* line 137, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .buttons-container a {
   text-decoration: none;
   color: #333645;
 }
 
+/* line 144, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .button-container {
   border: solid 1px #ccc;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
@@ -656,6 +756,7 @@ body {
   max-width: 720px;
 }
 
+/* line 159, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .button-container h2 {
   font-size: 18px;
   text-align: center;
@@ -663,18 +764,21 @@ body {
   font-weight: 200;
 }
 
+/* line 166, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .divider {
   width: 28px;
   height: 3px;
   margin: 0px auto 10px;
 }
 
+/* line 172, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .button-container p {
   text-align: center;
   margin-bottom: 15px;
   font-size: 13px;
 }
 
+/* line 178, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .button-container .button {
   border-radius: 3px;
   border: none;
@@ -685,323 +789,397 @@ body {
   font-size: 17px;
 }
 
+/* line 191, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software .icon-circle {
   background-color: #67809f;
 }
 
+/* line 196, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-th-button {
   background-color: #67809f;
   color: white;
 }
 
+/* line 201, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software span {
   background-color: #67809f;
 }
 
+/* line 206, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover {
   background-color: #67809f;
 }
 
+/* line 210, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover h2 {
   color: white;
 }
 
+/* line 214, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover i {
   background-color: white;
   color: #67809f;
 }
 
+/* line 219, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover span {
   background-color: white;
 }
 
+/* line 223, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover p {
   color: white;
 }
 
+/* line 227, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover .fa-th-button {
   background-color: white;
   color: #67809f;
 }
 
+/* line 232, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #bespoke-software:hover .icon-circle {
   background-color: white;
 }
 
+/* line 238, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support .icon-circle {
   background-color: #4183d7;
 }
 
+/* line 243, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-desktop-button {
   background-color: #4183d7;
   color: white;
 }
 
+/* line 248, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support span {
   background-color: #4183d7;
 }
 
+/* line 254, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover {
   background-color: #4183d7;
 }
 
+/* line 258, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover h2 {
   color: white;
 }
 
+/* line 262, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover i {
   background-color: white;
   color: #4183d7;
 }
 
+/* line 267, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover span {
   background-color: white;
 }
 
+/* line 271, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover p {
   color: white;
 }
 
+/* line 275, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover .fa-desktop-button {
   background-color: white;
   color: #4183d7;
 }
 
+/* line 280, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #it-support:hover .icon-circle {
   background-color: white;
 }
 
+/* line 286, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing .icon-circle {
   background-color: #2ecc71;
 }
 
+/* line 291, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-chart-bar-button {
   background-color: #2ecc71;
   color: white;
 }
 
+/* line 296, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing span {
   background-color: #2ecc71;
 }
 
+/* line 302, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover {
   background-color: #2ecc71;
 }
 
+/* line 306, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover h2 {
   color: white;
 }
 
+/* line 310, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover i {
   background-color: white;
   color: #2ecc71;
 }
 
+/* line 315, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover span {
   background-color: white;
 }
 
+/* line 319, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover p {
   color: white;
 }
 
+/* line 323, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover .fa-chart-bar-button {
   background-color: white;
   color: #2ecc71;
 }
 
+/* line 328, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #digital-marketing:hover .icon-circle {
   background-color: white;
 }
 
+/* line 334, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service .icon-circle {
   background-color: #d64541;
 }
 
+/* line 339, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-phone-volume-button {
   background-color: #d64541;
   color: white;
 }
 
+/* line 344, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service span {
   background-color: #d64541;
 }
 
+/* line 350, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover {
   background-color: #d64541;
 }
 
+/* line 354, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover h2 {
   color: white;
 }
 
+/* line 358, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover i {
   background-color: white;
   color: #d64541;
 }
 
+/* line 363, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover span {
   background-color: white;
 }
 
+/* line 367, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover p {
   color: white;
 }
 
+/* line 371, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover .fa-phone-volume-button {
   background-color: white;
   color: #d64541;
 }
 
+/* line 376, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #telecom-service:hover .icon-circle {
   background-color: white;
 }
 
+/* line 382, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design .icon-circle {
   background-color: #926fb1;
 }
 
+/* line 387, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-code-button {
   background-color: #926fb1;
   color: white;
 }
 
+/* line 392, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design span {
   background-color: #926fb1;
 }
 
+/* line 398, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover {
   background-color: #926fb1;
 }
 
+/* line 402, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover h2 {
   color: white;
 }
 
+/* line 406, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover i {
   background-color: white;
   color: #926fb1;
 }
 
+/* line 411, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover span {
   background-color: white;
 }
 
+/* line 415, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover p {
   color: white;
 }
 
+/* line 419, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover .fa-code-button {
   background-color: white;
   color: #926fb1;
 }
 
+/* line 424, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #web-design:hover .icon-circle {
   background-color: white;
 }
 
+/* line 430, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security .icon-circle {
   background-color: #f62459;
 }
 
+/* line 435, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-shield-alt-button {
   background-color: #f62459;
   color: white;
 }
 
+/* line 440, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security span {
   background-color: #f62459;
 }
 
+/* line 446, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover {
   background-color: #f62459;
 }
 
+/* line 450, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover h2 {
   color: white;
 }
 
+/* line 454, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover i {
   background-color: white;
   color: #f62459;
 }
 
+/* line 459, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover span {
   background-color: white;
 }
 
+/* line 463, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover p {
   color: white;
 }
 
+/* line 467, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover .fa-shield-alt-button {
   background-color: white;
   color: #f62459;
 }
 
+/* line 472, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #cyber-security:hover .icon-circle {
   background-color: white;
 }
 
+/* line 478, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training .icon-circle {
   background-color: #926fb1;
 }
 
+/* line 483, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 .fa-graduation-cap-button {
   background-color: #926fb1;
   color: white;
   text-align: center;
 }
 
+/* line 489, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training span {
   background-color: #926fb1;
 }
 
+/* line 495, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover {
   background-color: #926fb1;
 }
 
+/* line 499, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover h2 {
   color: white;
 }
 
+/* line 503, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover i {
   background-color: white;
   color: #926fb1;
 }
 
+/* line 508, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover span {
   background-color: white;
 }
 
+/* line 512, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover p {
   color: white;
 }
 
+/* line 516, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover .fa-graduation-cap-button {
   background-color: white;
   color: #926fb1;
 }
 
+/* line 521, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_buttons.scss */
 #developer-training:hover .icon-circle {
   background-color: white;
 }
 
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_icons.scss */
 .fab {
   font-size: 35px;
   margin: 0px 0px 1px;
 }
 
+/* line 6, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_icons.scss */
 .fas {
   padding: 0px 7px;
 }
 
+/* line 12, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_icons.scss */
 .btn-icn {
   position: absolute;
   top: 20px;
   right: 15px;
 }
 
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_icons.scss */
 .icon-circle {
   border-radius: 50%;
   height: 60px;
@@ -1011,16 +1189,19 @@ body {
   position: relative;
 }
 
+/* line 30, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_icons.scss */
 .nav-icn {
   padding: 0px 0px 10px;
 }
 
+/* line 3, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .articles {
   padding: 30px 15px;
   margin-left: 1px;
   background-color: #f2f2f2;
 }
 
+/* line 10, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .article-header-container h4 {
   border-bottom: solid black 5px;
   text-transform: uppercase;
@@ -1030,43 +1211,51 @@ body {
   margin-left: 20px;
 }
 
+/* line 21, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .article-header-container {
   margin: auto auto;
   background-color: white;
   height: 104px;
 }
 
+/* line 28, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .articles a {
   text-decoration: none;
   color: #926fb1;
 }
 
+/* line 33, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .articles a:hover {
   text-decoration: underline;
 }
 
+/* line 37, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .articles p {
   line-height: 1.375rem;
   font-size: 0.8125rem;
   margin: 15px 20px 25px;
 }
 
+/* line 44, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .article-container h5 {
   margin-left: 20px;
   margin-top: 25px;
 }
 
+/* line 49, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .article-container {
   margin: 0px 10px;
   background-color: white;
 }
 
+/* line 56, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .articles-container {
   padding: 50px 0px;
   background-color: #f2f2f2;
   padding: 50px 0px;
 }
 
+/* line 63, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .article-container {
   border: solid #ccc 1px;
   display: flex;
@@ -1074,6 +1263,7 @@ body {
   margin-bottom: 15px;
 }
 
+/* line 72, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .author {
   margin-top: 8px;
   padding-top: 30px;
@@ -1082,6 +1272,7 @@ body {
   margin: 25px 25px;
 }
 
+/* line 80, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .avatar {
   border-radius: 50%;
   margin-top: 15px;
@@ -1092,32 +1283,41 @@ body {
   width: 47px;
 }
 
+/* line 90, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_articles.scss */
 .author-details {
   line-height: 0px;
 }
 
+/* line 2, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slides {
   margin-top: 10px;
 }
+
 @media (min-width: 768px) {
+  /* line 2, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
   .slides {
     margin-top: -10px;
   }
 }
+
 @media (min-width: 992px) {
+  /* line 2, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
   .slides {
     margin-top: 0px;
   }
 }
 
+/* line 15, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slick-dots li {
   margin-top: -60px;
 }
 
+/* line 19, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slick-dots li button {
   margin-top: -60px;
 }
 
+/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slick-dots li button:before {
   color: white;
   margin-top: -70px;
@@ -1126,11 +1326,13 @@ body {
   font-size: 13px;
 }
 
+/* line 34, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slick-list {
   height: 800px;
   margin-bottom: 10px;
 }
 
+/* line 41, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset3.jpeg) no-repeat;
   background-size: cover;
@@ -1139,6 +1341,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 49, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset4.jpeg) no-repeat;
   background-size: cover;
@@ -1147,6 +1350,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 57, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset5.jpeg) no-repeat;
   background-size: cover;
@@ -1155,6 +1359,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 65, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset6.jpeg) no-repeat;
   background-size: cover;
@@ -1163,6 +1368,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 73, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset1.jpeg) no-repeat;
   background-size: cover;
@@ -1171,6 +1377,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 81, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-img-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asset2.jpeg) no-repeat;
   background-size: cover;
@@ -1179,6 +1386,7 @@ body {
   transform-origin: 50% 50%;
 }
 
+/* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .carousel-text {
   top: -500px;
   position: relative;
@@ -1186,42 +1394,52 @@ body {
   margin: auto;
   width: 350px;
 }
+
 @media screen and (min-width: 768px) {
+  /* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
   .carousel-text {
     width: 750px;
   }
 }
+
 @media screen and (min-width: 992px) {
+  /* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
   .carousel-text {
     width: 970px;
   }
 }
+
 @media screen and (min-width: 1268px) {
+  /* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
   .carousel-text {
     width: 1200px;
   }
 }
 
+/* line 114, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slides {
   height: 750px;
 }
 
+/* line 118, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide h1 {
   margin-bottom: 25px;
   font-size: 50px;
   text-transform: uppercase;
-  letter-spacing: 0.4px;
+  letter-spacing: .4px;
   line-height: 45px;
   font-weight: normal;
 }
 
+/* line 127, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide p {
   line-height: 30px;
-  letter-spacing: 0.4px;
+  letter-spacing: .4px;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
+/* line 134, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide button {
   text-align: center;
   border: none;
@@ -1233,58 +1451,72 @@ body {
   border-radius: 5px;
 }
 
+/* line 145, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-1 button {
   background-color: #926fb1;
 }
 
+/* line 148, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-1 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 152, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-2 button {
   background-color: #4183d7;
 }
 
+/* line 155, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-2 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 158, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-3 button {
   background-color: #d64541;
 }
 
+/* line 161, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-3 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 164, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-4 button {
   background-color: #67809f;
 }
 
+/* line 167, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-4 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 170, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-5 button {
   background-color: #2ecc71;
 }
 
+/* line 173, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-5 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 176, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-6 button {
   background-color: #f62459;
 }
 
+/* line 179, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slide-6 button:hover {
   background-color: #7e57a0;
 }
 
+/* line 183, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_carousel.scss */
 .slick-dots li button:before {
   color: white;
 }
 
+/* line 3, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar {
   display: none;
   position: relative;
@@ -1294,6 +1526,7 @@ body {
   border-bottom: 1px white solid;
 }
 
+/* line 13, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons {
   display: flex;
   flex-direction: row;
@@ -1301,6 +1534,7 @@ body {
   margin: auto auto;
 }
 
+/* line 23, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-button {
   display: flex;
   flex-direction: column;
@@ -1320,6 +1554,7 @@ body {
   z-index: 2;
 }
 
+/* line 42, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-buttons .nav-button {
   text-decoration: none;
   text-transform: uppercase;
@@ -1328,86 +1563,107 @@ body {
   line-height: 2.813rem;
 }
 
+/* line 53, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-code {
   color: #926fb1;
 }
 
+/* line 57, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-web:hover .fa-code {
   color: white;
 }
 
+/* line 61, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-web {
   border-left: 1px solid #926fb1;
 }
 
+/* line 66, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-desktop {
   color: #4183d7;
 }
 
+/* line 70, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-it:hover .fa-desktop {
   color: white;
 }
 
+/* line 75, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-phone-volume {
   color: #d64541;
 }
 
+/* line 79, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-telecoms:hover .fa-phone-volume {
   color: white;
 }
 
+/* line 84, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-th {
   color: #67809f;
 }
 
+/* line 88, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-bespoke:hover .fa-th {
   color: white;
 }
 
+/* line 93, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-chart-bar {
   color: #2ecc71;
 }
 
+/* line 97, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-digital:hover .fa-chart-bar {
   color: white;
 }
 
+/* line 102, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons .fa-shield-alt {
   color: #f62459;
 }
 
+/* line 106, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-cyber:hover .fa-shield-alt {
   color: white;
 }
 
+/* line 111, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .navbar-buttons p {
   font-size: 10px;
 }
 
+/* line 116, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-web:hover {
   background-color: #926fb1;
 }
 
+/* line 120, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-it:hover {
   background-color: #4183d7;
 }
 
+/* line 124, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-telecoms:hover {
   background-color: #d64541;
 }
 
+/* line 128, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-bespoke:hover {
   background-color: #67809f;
 }
 
+/* line 132, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-digital:hover {
   background-color: #2ecc71;
 }
 
+/* line 136, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-cyber:hover {
   background-color: #f62459;
 }
 
+/* line 141, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-contents {
   display: none;
   width: 100vw;
@@ -1416,8 +1672,10 @@ body {
   top: 98px;
   left: 0;
 }
+
+/* line 148, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-contents ::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -1425,8 +1683,10 @@ body {
   width: 500px;
   height: 45px;
 }
+
+/* line 157, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-contents ::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -1434,6 +1694,8 @@ body {
   width: 500px;
   height: 45px;
 }
+
+/* line 166, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-contents a {
   color: white;
   text-transform: uppercase;
@@ -1442,94 +1704,132 @@ body {
   justify-content: center;
 }
 
+/* line 178, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-web {
   background-color: #926fb1;
 }
+
+/* line 180, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-web ::before {
   background-color: #926fb1;
 }
+
+/* line 183, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-web ::after {
   background-color: #926fb1;
 }
 
+/* line 188, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-it {
   background-color: #4183d7;
 }
+
+/* line 190, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-it ::before {
   background-color: #4183d7;
 }
+
+/* line 193, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-it ::after {
   background-color: #4183d7;
 }
 
+/* line 198, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-telecoms {
   background-color: #d64541;
 }
+
+/* line 200, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-telecoms ::before {
   background-color: #d64541;
 }
+
+/* line 203, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-telecoms ::after {
   background-color: #d64541;
 }
 
+/* line 208, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-bespoke {
   background-color: #67809f;
 }
+
+/* line 210, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-bespoke ::before {
   background-color: #67809f;
 }
+
+/* line 213, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-bespoke ::after {
   background-color: #67809f;
 }
 
+/* line 218, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-digital {
   background-color: #2ecc71;
 }
+
+/* line 220, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-digital ::before {
   background-color: #2ecc71;
 }
+
+/* line 223, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-digital ::after {
   background-color: #2ecc71;
 }
 
+/* line 228, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-cyber {
   background-color: #f62459;
 }
+
+/* line 230, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-cyber ::before {
   background-color: #f62459;
 }
+
+/* line 233, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-cyber ::after {
   background-color: #f62459;
 }
 
+/* line 240, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-web:hover .nav-hover-web {
   display: block;
 }
 
+/* line 244, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-it:hover .nav-hover-it {
   display: block;
 }
 
+/* line 248, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-telecoms:hover .nav-hover-telecoms {
   display: block;
 }
 
+/* line 252, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-bespoke:hover .nav-hover-bespoke {
   display: block;
 }
 
+/* line 256, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-digital:hover .nav-hover-digital {
   display: block;
 }
 
+/* line 260, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-bar-cyber:hover .nav-hover-cyber {
   display: block;
 }
 
+/* line 267, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .nav-hover-contents a:nth-of-type(1n+2) {
   padding-left: 20px;
 }
 
+/* line 271, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .content {
   display: flex;
   flex-direction: row;
@@ -1537,10 +1837,13 @@ body {
   margin: auto auto;
   vertical-align: auto;
 }
+
+/* line 277, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .content a {
   padding-top: 12px;
 }
 
+/* line 282, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_nav.scss */
 .content-dash {
   width: 10px;
   height: 2px;
@@ -1550,64 +1853,87 @@ body {
   margin: auto 0;
 }
 
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .media {
   margin: auto;
 }
+
 @media screen and (min-width: 768px) {
+  /* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
   .media {
     width: 750px;
   }
 }
+
 @media (min-width: 992px) {
+  /* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
   .media {
     width: 970px;
   }
 }
+
 @media (min-width: 1260px) {
+  /* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
   .media {
     width: 1200px;
   }
 }
 
+/* line 18, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .top-cntct-ctn {
   display: flex;
   height: 45px;
   align-items: center;
 }
 
+/* line 24, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout {
   display: flex;
   flex-direction: row;
 }
+
+/* line 28, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left {
   width: 66%;
   display: flex;
   flex-wrap: wrap;
 }
+
+/* line 33, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+/* line 38, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li {
   list-style-type: none;
   padding: 0px 15px;
 }
+
+/* line 42, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li p {
   color: #333645;
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+/* line 48, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li input {
   padding: 5px 15px;
   height: 47px;
   width: 370px;
 }
+
+/* line 56, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li textarea {
   padding: 5px 15px;
   height: 100px;
   width: 770px;
 }
+
+/* line 63, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form li input[type=submit] {
   color: white;
   background-color: #333645;
@@ -1618,10 +1944,14 @@ body {
   font-size: 17px;
   text-align: center;
 }
+
+/* line 75, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form .checkbox {
   display: flex;
   flex-direction: row;
 }
+
+/* line 81, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-left .form input[type=checkbox] {
   height: 32px;
   width: 32px;
@@ -1630,19 +1960,27 @@ body {
   border-radius: 3px;
   border: 3px solid #333645;
 }
+
+/* line 96, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout sup {
   color: red;
 }
+
+/* line 101, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right {
   width: 33%;
   display: flex;
   flex-direction: column;
 }
+
+/* line 106, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right p {
   font-size: 16px;
   font-weight: 600;
   color: #333645;
 }
+
+/* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-layout .cntct-layout-right a {
   color: #926fb1;
   padding-bottom: 15px;
@@ -1651,6 +1989,7 @@ body {
   text-decoration: none;
 }
 
+/* line 122, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .offices {
   display: flex;
   flex-direction: row;
@@ -1659,19 +1998,28 @@ body {
   margin-bottom: 50px;
 }
 
+/* line 132, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
 }
+
+/* line 137, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover h5 {
   color: white;
 }
+
+/* line 141, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover address {
   color: white;
 }
+
+/* line 146, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner:hover .cntct-line {
   background-color: white;
 }
+
+/* line 150, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner {
   border: solid 1px black;
   border-radius: 3px;
@@ -1685,6 +2033,8 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+/* line 163, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner .office-icn {
   border-radius: 100px;
   height: 60px;
@@ -1692,6 +2042,8 @@ body {
   background-color: #21222c;
   margin-bottom: 2px;
 }
+
+/* line 170, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-left .office-left-inner .office-icn i {
   font-size: 30px;
   position: relative;
@@ -1699,25 +2051,35 @@ body {
   color: white;
 }
 
+/* line 180, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-line {
   width: 20px;
   height: 3px;
   background-color: #333645;
 }
 
+/* line 188, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover {
   cursor: pointer;
   background-color: #926fb1;
 }
+
+/* line 193, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover h5 {
   color: white;
 }
+
+/* line 197, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover address {
   color: white;
 }
+
+/* line 201, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner:hover .cntct-line {
   background-color: white;
 }
+
+/* line 205, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner {
   border: solid 1px black;
   border-radius: 3px;
@@ -1731,6 +2093,8 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
+/* line 218, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner .office-icn {
   border-radius: 100px;
   height: 60px;
@@ -1738,6 +2102,8 @@ body {
   background-color: #21222c;
   margin-bottom: 2px;
 }
+
+/* line 225, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .office-right .office-right-inner .office-icn i {
   font-size: 30px;
   position: relative;
@@ -1745,16 +2111,21 @@ body {
   color: white;
 }
 
+/* line 235, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success {
   height: 300px;
   width: 100vw;
 }
+
+/* line 239, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-contents {
   margin-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+/* line 246, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-btn {
   height: 70px;
   width: 140px;
@@ -1770,34 +2141,45 @@ body {
   font-size: 17px;
   text-decoration: none;
 }
+
+/* line 262, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success .cntct-success-btn:hover {
   background-color: #926fb1;
 }
+
+/* line 266, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .cntct-success h1 {
   text-align: center;
 }
 
-input[data-state=invalid] {
+/* line 272, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+input[data-state="invalid"] {
   border-color: red;
 }
 
-input[data-state=invalid] {
+/* line 276, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
+input[data-state="invalid"] {
   border-color: black;
 }
 
+/* line 280, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_contact.scss */
 .error {
   border: red solid 2px;
 }
 
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy {
   background-color: #333645;
 }
 
 @media screen and (min-width: 992px) {
+  /* line 5, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
   .pushy-mob-menu {
     display: none;
   }
 }
+
+/* line 11, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .top-sub {
   text-align: center;
   outline: 1px solid rgba(0, 0, 0, 0.25);
@@ -1809,9 +2191,13 @@ input[data-state=invalid] {
   font-size: 18px;
   padding-top: 5px;
 }
+
+/* line 23, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .top-sub:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 27, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-button {
   margin: auto;
   width: 216px;
@@ -1821,67 +2207,108 @@ input[data-state=invalid] {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 3px;
 }
+
+/* line 36, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-button p:first-of-type {
   font-size: 10px;
 }
+
+/* line 40, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 46, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-web i {
   color: #926fb1;
 }
+
+/* line 51, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-web:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 55, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-web:hover i {
   color: #926fb1;
 }
+
+/* line 61, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-it i {
   color: #4183d7;
 }
+
+/* line 66, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-it:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 70, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-it:hover i {
   color: #4183d7;
 }
+
+/* line 76, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-telecoms i {
   color: #d64541;
 }
+
+/* line 81, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-telecoms:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 85, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-telecoms:hover i {
   color: #d64541;
 }
+
+/* line 91, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-bespoke i {
   color: #67809f;
 }
+
+/* line 96, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-bespoke:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 100, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-bespoke:hover i {
   color: #67809f;
 }
+
+/* line 107, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-digital i {
   color: #2ecc71;
 }
+
+/* line 112, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-digital:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 116, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-digital:hover i {
   color: #2ecc71;
 }
+
+/* line 121, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-cyber i {
   color: #f62459;
 }
+
+/* line 126, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-cyber:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* line 130, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-mob-menu .nav-bar-cyber:hover i {
   color: #f62459;
 }
 
+/* line 137, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .sub-menu-pushy {
   width: 216px;
   margin: auto;
@@ -1890,6 +2317,8 @@ input[data-state=invalid] {
   background-color: rgba(0, 0, 0, 0.5);
   height: 258px;
 }
+
+/* line 146, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .sub-menu-pushy li {
   margin: 0px;
   font-size: 16px;
@@ -1899,11 +2328,14 @@ input[data-state=invalid] {
   text-align: center;
   background-color: #21222c;
 }
+
+/* line 155, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .sub-menu-pushy li a {
   padding: 0px;
   text-align: center;
 }
 
+/* line 165, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-head {
   background-color: #333645;
   font-size: 16px;
@@ -1911,10 +2343,13 @@ input[data-state=invalid] {
   text-align: left;
   height: 56px;
 }
+
+/* line 172, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-head a {
   color: white;
 }
 
+/* line 177, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-sub {
   font-size: 14px;
   text-transform: uppercase;
@@ -1922,10 +2357,13 @@ input[data-state=invalid] {
   text-align: left;
   height: 51px;
 }
+
+/* line 185, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-sub a {
   color: white;
 }
 
+/* line 190, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .fa-angle-double-right {
   font-size: 8px;
   margin-right: 20px;
@@ -1933,6 +2371,7 @@ input[data-state=invalid] {
 }
 
 /* Menu Appearance */
+/* line 199, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy {
   position: fixed;
   width: 350px;
@@ -1945,12 +2384,14 @@ input[data-state=invalid] {
 }
 
 /* Menu Movement */
+/* line 212, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-left {
   -webkit-transform: translate3d(-350px, 0, 0);
   -ms-transform: translate3d(-350px, 0, 0);
   transform: translate3d(-350px, 0, 0);
 }
 
+/* line 219, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-open-left #container,
 .pushy-open-left .push {
   -webkit-transform: translate3d(350px, 0, 0);
@@ -1958,12 +2399,14 @@ input[data-state=invalid] {
   transform: translate3d(350px, 0, 0);
 }
 
+/* line 227, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-right {
   -webkit-transform: translate3d(350px, 0, 0);
   -ms-transform: translate3d(350px, 0, 0);
   transform: translate3d(350px, 0, 0);
 }
 
+/* line 234, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-open-right #container,
 .pushy-open-right .push {
   -webkit-transform: translate3d(-350px, 0, 0);
@@ -1971,33 +2414,40 @@ input[data-state=invalid] {
   transform: translate3d(-350px, 0, 0);
 }
 
+/* line 244, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-open-left .pushy,
 .pushy-open-right .pushy {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
+/* line 250, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-open-left .pushy-content,
 .pushy-open-right .pushy-content {
   visibility: visible;
 }
 
 /* Menu Transitions */
+/* line 257, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 #container,
 .pushy,
 .push {
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
+/* line 263, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-content {
   transition: visibility 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
 
 /* Site Overlay */
+/* line 269, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .site-overlay {
   display: none;
 }
 
+/* line 275, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_pushy.scss */
 .pushy-open-left .site-overlay,
 .pushy-open-right .site-overlay {
   display: block;
@@ -2020,6 +2470,7 @@ input[data-state=invalid] {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
@@ -2028,26 +2479,33 @@ input[data-state=invalid] {
     opacity: 1;
   }
 }
+
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger-inner {
   background: white;
 }
 
+/* line 5, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger-inner:before {
   background: white;
 }
 
+/* line 8, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger-inner:after {
   background: white;
 }
 
+/* line 12, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger.is-active .hamburger-inner {
   background: white;
 }
 
+/* line 16, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger-inner:after {
   background: white;
 }
 
+/* line 20, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger p {
   color: white;
   text-transform: uppercase;
@@ -2055,6 +2513,7 @@ input[data-state=invalid] {
   margin: 10px auto 0px;
 }
 
+/* line 30, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_hamburger.scss */
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -2068,6 +2527,7 @@ input[data-state=invalid] {
   height: 63px;
 }
 
+/* line 1, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .popup-bckgrnd {
   height: 100vh;
   width: 100vw;
@@ -2078,10 +2538,12 @@ input[data-state=invalid] {
   left: 0;
 }
 
+/* line 11, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .popup-disable {
   display: none;
 }
 
+/* line 15, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up {
   background-color: white;
   position: absolute;
@@ -2094,15 +2556,21 @@ input[data-state=invalid] {
   text-align: center;
   margin: auto auto;
 }
+
+/* line 27, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up h3 {
   font-size: 26px;
   font-weight: 50;
   text-align: left;
   margin-left: 20px;
 }
+
+/* line 34, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up p {
   margin: 0px 10px;
 }
+
+/* line 39, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up .pop-up-hr {
   background-color: black;
   width: 598px;
@@ -2110,6 +2578,8 @@ input[data-state=invalid] {
   opacity: 0.3;
   margin: 10px 0px 10px;
 }
+
+/* line 48, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up button {
   color: white;
   border: none;
@@ -2121,81 +2591,88 @@ input[data-state=invalid] {
   cursor: pointer;
   margin-top: 20px;
 }
+
+/* line 60, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up .btn-left {
   background-color: #67809f;
 }
+
+/* line 64, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/components/_popup.scss */
 .pop-up .btn-right {
   background-color: #926fb1;
 }
 
 @media screen and (max-width: 767px) {
+  /* line 2, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .clients-container {
     display: none;
   }
-
+  /* line 6, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .accredits {
     display: none;
   }
-
+  /* line 10, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg {
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
+  /* line 17, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items,
-.buttons-container,
-.culture-div-container,
-.articles-container,
-.footer-container-contents,
-.clients-container,
-.accredits,
-.carousel-margin,
-.article-header-container {
+  .buttons-container,
+  .culture-div-container,
+  .articles-container,
+  .footer-container-contents,
+  .clients-container,
+  .accredits,
+  .carousel-margin,
+  .article-header-container {
     width: 750px;
   }
-
+  /* line 30, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div-container {
     margin: auto;
   }
-
+  /* line 34, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents {
     margin: auto;
   }
-
+  /* line 39, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contactus {
     margin-left: 20px;
   }
-
+  /* line 43, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website {
     margin-left: 20px;
   }
-
+  /* line 47, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 100px;
   }
-
+  /* line 51, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 100px;
   }
-
+  /* line 55, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   header {
     height: 110px;
   }
-
+  /* line 59, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items {
     margin-top: 30px;
     padding: 0px;
   }
-
+  /* line 64, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .carousel-margin {
     margin: 0 auto;
   }
-
+  /* line 68, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .articles {
     margin-left: auto;
     margin-right: auto;
   }
-
+  /* line 73, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .buttons-container {
     display: flex;
     flex-direction: row;
@@ -2203,47 +2680,47 @@ input[data-state=invalid] {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+  /* line 81, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .button-container {
     margin: 0px;
   }
-
+  /* line 85, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #bespoke-software,
-#it-support,
-#digital-marketing {
+  #it-support,
+  #digital-marketing {
     min-width: 294px;
     max-height: 300px;
     margin: 10px 0px;
   }
-
+  /* line 93, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #telecom-service,
-#cyber-security {
+  #cyber-security {
     min-width: 345px;
     max-height: 300px;
     width: 345px;
     margin: 30px 15px 0px 0px;
   }
-
+  /* line 101, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #developer-training,
-#web-design {
+  #web-design {
     min-width: 345px;
     max-height: 300px;
     width: 345px;
     margin: 30px 0px 0px 15px;
   }
-
+  /* line 109, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items .phone {
     display: none;
   }
-
+  /* line 113, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items .logo {
     order: 1;
   }
-
+  /* line 117, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container {
     display: none;
   }
-
+  /* line 121, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg {
     display: inline-flex;
     width: 35%;
@@ -2252,206 +2729,208 @@ input[data-state=invalid] {
     border: 2px solid rgba(0, 0, 0, 0.1);
     height: 63px;
   }
-
+  /* line 130, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg input {
     padding-left: 10px;
   }
-
+  /* line 134, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg input::placeholder {
     opacity: 1;
   }
-
+  /* line 138, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg i {
     color: white;
     background-color: #999aa2;
   }
-
+  /* line 143, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-box {
     background-color: white;
   }
-
+  /* line 147, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .burger-container {
     order: 3;
   }
-
+  /* line 151, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .bottom-navs {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
-
+  /* line 157, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container {
     height: 528px;
   }
-
+  /* line 161, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
+  /* line 166, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     flex-direction: row;
     width: 300px;
   }
-
+  /* line 171, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-button-facebook {
     width: 45%;
     margin-right: 20px;
   }
-
+  /* line 176, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-button-twitter {
     width: 45%;
   }
-
+  /* line 180, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-button-linkedin {
     width: 45%;
   }
-
+  /* line 184, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div p {
     margin-bottom: 25px;
   }
-
+  /* line 188, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div {
     height: 493px;
   }
 }
+
 @media (min-width: 992px) {
+  /* line 196, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items,
-.buttons-container,
-.culture-div-container,
-.articles-container,
-.clients-container,
-.footer-container-contents,
-.accredits,
-.carousel-margin,
-.navbar-buttons,
-.article-header-container,
-.content {
+  .buttons-container,
+  .culture-div-container,
+  .articles-container,
+  .clients-container,
+  .footer-container-contents,
+  .accredits,
+  .carousel-margin,
+  .navbar-buttons,
+  .article-header-container,
+  .content {
     width: 970px;
   }
-
+  /* line 210, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 300px;
   }
-
+  /* line 214, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 300px;
   }
-
+  /* line 218, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .google-partner {
     width: 400px;
     margin-right: 20px;
   }
-
+  /* line 223, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .silver-ms {
     width: 130px;
     margin-left: 0px;
     height: 100px;
   }
-
+  /* line 230, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .carbon-charter {
     width: 290px;
   }
-
+  /* line 234, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .future-50 {
     width: 50px;
   }
-
+  /* line 238, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .clients {
     height: 63px;
     margin-left: 10px;
   }
-
+  /* line 243, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .busseys {
     width: 169px;
   }
-
+  /* line 247, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .crane {
     width: 260px;
   }
-
+  /* line 251, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .beat {
     width: 65px;
   }
-
+  /* line 255, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .diver {
     width: 290px;
   }
-
+  /* line 259, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext1 {
     right: -20px;
   }
-
+  /* line 263, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext2 {
     right: 50px;
   }
-
+  /* line 267, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext3 {
     right: -80px;
   }
-
+  /* line 271, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext4 {
     right: 50px;
   }
-
+  /* line 275, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .buttons-container {
     display: flex;
     flex-direction: row;
     height: 1096px;
     flex-wrap: wrap;
   }
-
+  /* line 282, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .button-container {
     margin: 0px;
   }
-
+  /* line 286, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #bespoke-software,
-#it-support,
-#digital-marketing {
+  #it-support,
+  #digital-marketing {
     min-width: 294px;
     max-height: 356px;
     width: 294px;
     height: 356px;
   }
-
+  /* line 295, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #bespoke-software {
     margin-right: 15px;
   }
-
+  /* line 299, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #it-support {
     margin-right: 15px;
     margin-left: 15px;
   }
-
+  /* line 304, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #digital-marketing {
     margin-left: 15px;
   }
-
+  /* line 308, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #telecom-service,
-#cyber-security {
+  #cyber-security {
     min-width: 455px;
     max-height: 300px;
     width: 455px;
     margin: 30px 15px 0px 0px;
   }
-
+  /* line 316, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #developer-training,
-#web-design {
+  #web-design {
     min-width: 455px;
     max-height: 300px;
     width: 445px;
     margin: 30px 0px 0px 15px;
   }
-
+  /* line 324, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #cyber-security,
-#developer-training {
+  #developer-training {
     margin-bottom: 30px;
   }
-
+  /* line 329, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg {
     display: none;
   }
-
+  /* line 333, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .support-button {
     display: inline-flex;
     margin-right: 20px;
@@ -2463,7 +2942,7 @@ input[data-state=invalid] {
     width: 144px;
     align-items: center;
   }
-
+  /* line 345, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contact-button {
     display: inline-flex;
     margin-right: 20px;
@@ -2474,7 +2953,7 @@ input[data-state=invalid] {
     width: 144px;
     align-items: center;
   }
-
+  /* line 356, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-button {
     display: inline-flex;
     height: 63px;
@@ -2484,134 +2963,138 @@ input[data-state=invalid] {
     align-items: center;
     justify-content: center;
   }
-
+  /* line 366, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div {
     background-size: auto 100%;
     background-position: right center;
   }
-
+  /* line 374, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .accredits {
     height: 100px;
   }
-
+  /* line 378, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .accreditation {
     width: 250px;
   }
-
+  /* line 382, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .articles-container {
     display: flex;
   }
-
+  /* line 386, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container {
     height: 100%;
     width: auto;
     overflow: hidden;
   }
-
+  /* line 392, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container img {
-    transition: transform 0.6s;
+    transition: transform .6s;
   }
-
+  /* line 396, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container img:hover {
     transform: scale(1.1);
     opacity: 0.5;
   }
-
+  /* line 401, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div {
     background: url("../img/asset27.png"), #333645;
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-
+  /* line 407, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .navbar {
     display: flex;
   }
-
+  /* line 411, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container img {
     width: 471px;
     height: auto;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1260px) {
+  /* line 422, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .hidden-article {
     display: none;
   }
 }
+
 @media (min-width: 1260px) {
+  /* line 429, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .header-items,
-.buttons-container,
-.articles-container,
-.clients-container,
-.footer-container-contents,
-.accredits,
-.carousel-margin,
-.navbar-buttons,
-.article-header-container,
-.content {
+  .buttons-container,
+  .articles-container,
+  .clients-container,
+  .footer-container-contents,
+  .accredits,
+  .carousel-margin,
+  .navbar-buttons,
+  .article-header-container,
+  .content {
     width: 1200px;
   }
-
+  /* line 443, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container {
     width: 380px;
   }
-
+  /* line 447, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 70px;
   }
-
+  /* line 451, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 70px;
   }
-
+  /* line 455, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contactus {
     margin-left: 70px;
   }
-
+  /* line 459, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website {
     margin-left: 70px;
   }
-
+  /* line 463, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .clients {
     height: 70px;
     margin-left: 50px;
   }
-
+  /* line 468, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .busseys {
     width: 188px;
   }
-
+  /* line 472, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .crane {
     width: 287px;
   }
-
+  /* line 476, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .beat {
     width: 72px;
   }
-
+  /* line 480, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .diver {
     width: 322px;
   }
-
+  /* line 484, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .nav-button {
     width: 200px;
   }
-
+  /* line 488, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext1 {
     right: -10px;
   }
-
+  /* line 492, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext2 {
     right: 55px;
   }
-
+  /* line 496, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext3 {
     right: -80px;
   }
-
+  /* line 500, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .tooltiptext4 {
     right: 75px;
   }
-
+  /* line 504, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div-container {
     display: flex;
     flex-direction: column;
@@ -2619,19 +3102,19 @@ input[data-state=invalid] {
     margin: auto;
     justify-content: flex-start;
   }
-
+  /* line 513, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .culture-div {
     height: 553px;
   }
-
+  /* line 518, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-button {
     display: none;
   }
-
+  /* line 522, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .search-container-lrg {
     display: inline-flex;
   }
-
+  /* line 526, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .buttons-container {
     display: flex;
     flex-direction: row;
@@ -2639,249 +3122,267 @@ input[data-state=invalid] {
     flex-wrap: wrap;
     margin: 60px auto 30px;
   }
-
+  /* line 534, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .button-container {
     margin: 0px;
   }
-
+  /* line 538, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #bespoke-software,
-#it-support,
-#digital-marketing {
+  #it-support,
+  #digital-marketing {
     min-width: 360px;
     max-height: 356px;
     width: 360px;
     height: 356px;
   }
-
+  /* line 547, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #bespoke-software {
     margin-right: 15px;
   }
-
+  /* line 551, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #it-support {
     margin-right: 15px;
     margin-left: 15px;
   }
-
+  /* line 556, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #digital-marketing {
     margin-left: 15px;
   }
-
+  /* line 560, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #telecom-service,
-#cyber-security,
-#web-design {
+  #cyber-security,
+  #web-design {
     min-width: 270px;
     max-height: 300px;
     width: 270px;
     margin: 30px 15px 0px 0px;
   }
-
+  /* line 569, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #developer-training {
     min-width: 270px;
     max-height: 300px;
     width: 270px;
     margin: 30px 0px 0px 10px;
   }
-
+  /* line 576, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container {
     height: 309px;
   }
-
+  /* line 580, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents {
     flex-direction: row;
     margin: auto auto;
   }
-
+  /* line 585, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents .break {
     display: none;
   }
-
+  /* line 589, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-right: 0px;
   }
-
+  /* line 593, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .support-button {
     display: inline-flex;
     margin-right: 20px;
     padding-right: 20px;
   }
-
+  /* line 599, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contact-button {
     padding-right: 20px;
   }
-
+  /* line 603, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container img {
     width: 400px;
     height: auto;
   }
 }
+
 @media (min-width: 400px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 614, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .burger-container {
     display: block;
   }
-
+  /* line 618, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .button-container p {
     width: calc(100% - 2px);
   }
-
+  /* line 622, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container {
     height: 1000px;
   }
-
+  /* line 626, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm ul {
     margin-left: -30px;
   }
-
+  /* line 630, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website ul {
     margin-left: -30px;
   }
-
+  /* line 634, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .google-partner {
     background: url("../img/GooglePartner-Copy.png") no-repeat center center;
   }
 }
+
 @media (min-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 642, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 150px;
   }
-
+  /* line 646, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 150px;
   }
-
+  /* line 650, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container {
     height: 550px;
   }
 }
+
 @media (min-width: 992px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 658, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .nav-button p {
     margin-bottom: 1px;
   }
-
+  /* line 662, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .nav-icn {
     padding-bottom: 0px;
   }
-
+  /* line 666, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container {
     width: 60%;
     max-height: 700px;
   }
+  /* line 670, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container p {
     max-width: calc(100% - 2px);
   }
+  /* line 674, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container p:first-of-type {
     min-height: 66px;
   }
+  /* line 678, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container .read-more-button {
     height: 120px;
   }
-
+  /* line 684, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container img {
     height: auto;
   }
-
+  /* line 688, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents {
     justify-content: center;
   }
-
+  /* line 692, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website h4 {
     margin-left: 40px;
   }
+  /* line 695, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website h4 ul {
     margin-left: -20px;
   }
-
+  /* line 700, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 30px;
   }
-
+  /* line 704, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm ul {
     margin-left: -40px;
   }
-
+  /* line 709, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website {
     margin-right: 180px;
     margin-left: -20px;
   }
+  /* line 713, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website h4 {
     margin-left: 2px;
   }
+  /* line 717, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website ul {
     margin-right: -40px;
   }
-
+  /* line 722, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .content a {
     font-size: 16px;
   }
-
+  /* line 726, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contactus {
     margin-left: -150px;
   }
-
+  /* line 730, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 170px;
   }
 }
+
 @media (min-width: 1260px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 739, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contact-button {
     width: 200px;
   }
-
+  /* line 743, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .nav-button p {
     margin-bottom: 1px;
   }
-
+  /* line 747, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .button-container p {
     width: calc(100% - 2px);
   }
-
+  /* line 751, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   #developer-training p {
     margin-bottom: -5px;
   }
-
+  /* line 755, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container {
     width: 40%;
     max-height: 613px;
   }
+  /* line 759, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container p {
     max-width: calc(100% - 2px);
   }
+  /* line 763, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container p:first-of-type {
     min-height: 66px;
   }
+  /* line 767, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container .read-more-button {
     height: 70px;
   }
+  /* line 771, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .article-container .read-more-button-dm {
     height: 70px;
   }
-
+  /* line 776, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .img-container {
     height: auto;
   }
-
+  /* line 780, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container-contents {
     justify-content: center;
   }
-
+  /* line 784, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .footer-container {
     height: 400px;
   }
-
+  /* line 788, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .contactus {
     margin-left: 50px;
     margin-right: 50px;
   }
-
+  /* line 793, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .aboutnm {
     margin-left: 0px;
     margin-right: 50px;
   }
-
+  /* line 798, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .website {
     margin-left: 0px;
     margin-right: 150px;
   }
-
+  /* line 803, ../../../../xampp/htdocs/Reflections/nm-css-html-master/scss/layout/_media-queries.scss */
   .social-media {
     margin-left: 0px;
   }

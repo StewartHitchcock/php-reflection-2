@@ -8,10 +8,13 @@
         width: 970px;
     }
 
-
     @media (min-width: 1260px){
         width: 1200px;
     }
+}
+
+.cntct-link{
+    text-decoration: none;
 }
 
 .background-contact{
@@ -48,12 +51,18 @@
 
 
 
+
 .header-cntct{
 
     padding-top: 20px;
-    background-color: $nm-blue;
+    
     color: white;
     height: 87px;
+
+    @media screen and (min-width: 992px){
+
+        color: black;
+    }
     
 
     h2{
@@ -76,15 +85,19 @@
     
     
     .cntct-layout-left{
-        width: 66%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
 
         .form{
             display:flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             padding-right: 30px;
+
+            @media screen and (min-width: 992px){
+                flex-direction: row;
+            }
 
             li{
                 list-style-type: none;
@@ -100,7 +113,17 @@
 
                     padding: 5px 15px;
                     height: 47px;
-                    width: 370px;
+                    // width: 370px;
+                    width: 400px;
+
+                    
+                    @media screen and (min-width: 700px){
+                        width: 650px;
+                    }
+
+                    @media screen and (min-width: 992px){
+                        width: 370px;
+                    }
                     
                 }
 
@@ -108,7 +131,16 @@
 
                     padding: 5px 15px;
                     height: 100px;
-                    width: 770px;
+                    // width: 770px;
+                    width: 400px;
+
+                    @media screen and (min-width: 700px){
+                        width: 650px;
+                    }
+
+                    @media screen and (min-width: 992px){
+                        width: 770px;
+                    }
                 }
 
                 input[type=submit]{
@@ -150,10 +182,15 @@
     
 
     .cntct-layout-right {
-        width: 33%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 15px;
+
+        
+    @media screen and (min-width: 992px){
+        width: 33%;
+    }
 
        p{
            font-size: 16px;
@@ -173,14 +210,33 @@
 
 .offices{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 768px){
+
+        flex-direction: row;
+
+    }
 }
 
 .office-left{
     background-color: white;
+    margin: auto;
+
+    @media screen and (min-width: 768px){
+        width: 330px;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px;
+    }
     
     .office-left-inner:hover{
         cursor: pointer;
@@ -205,7 +261,7 @@
         border-radius: 3px;
         padding: 30px;
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
-        width:555px;
+        // width:555px;
         height: 309px;
         
         text-align: center;
@@ -237,7 +293,6 @@
                 font-size: 30px;
                 position: relative;
                 top: 13px;
-                
                 color: white;
             }
         }
@@ -253,6 +308,20 @@
 
 .office-right{
     background-color: white;
+    margin: auto;
+
+    
+    @media screen and (min-width: 768px){
+        width: 330px;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px;
+    }
 
     .office-right-inner:hover{
         cursor: pointer;
@@ -274,9 +343,9 @@
     .office-right-inner{
         border: solid 1px black;
         border-radius: 3px;
-        padding: 30px;
+        padding: 30px 0px;
         box-shadow: 0 3px 35px rgba(0,0,0,.1);
-        width:555px;
+        // width:555px;
         height: 309px;
         
         display: flex;
@@ -294,7 +363,11 @@
         h5{
             font-size: 18px;
             margin-bottom: 11px;
+            width: 95%;
         }
+
+        
+
 
         .office-icn{
             border-radius: 100px;
@@ -309,6 +382,8 @@
                 top: 13px;
                 color: white;
             }
+
+            
         }
     }
 }
@@ -356,3 +431,24 @@
 
 }
 
+iframe{
+
+    width: 490px;
+    height:300px;
+
+    @media screen and (max-width: 767px){
+        width: 440px !important;
+    }
+    
+    @media screen and (min-width: 768px){
+        width: 330px !important;
+    }
+
+    @media screen and (min-width: 992px){
+        width: 440px !important;
+    }
+
+    @media screen and (min-width: 1259px){
+        width: 555px !important;
+    }
+}

@@ -94,7 +94,7 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6022.310795642235!2d1.1310218561117646!3d52.57470488080204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9ddac8dba0b4b%3A0x9c77ffbfe7911dab!2sNetmatters!5e0!3m2!1sen!2suk!4v1597756108736!5m2!1sen!2suk"
-                    width="555" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             </div>
         </div>
@@ -114,7 +114,7 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10580.962970027076!2d1.7041012170932306!3d52.557015364273376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47da0593b311cec3%3A0x1cb3c1d4c0b340f6!2sNetmatters%20Gorleston!5e0!3m2!1sen!2suk!4v1597756162576!5m2!1sen!2suk"
-                    width="555" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             </div>
         </div>

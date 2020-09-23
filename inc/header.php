@@ -23,11 +23,11 @@
                     <header>
                         <div class="header-items">
                             <div class="logo-container">
-                                <a class="logo" href=""><img src="img/nm-logo.png" alt="Netmatters logo"></a> 
+                                <a class="logo" href="index.php"><img src="img/nm-logo.png" alt="Netmatters logo"></a> 
                             </div>
                             <a class="phone" href="tel:01603704020"><i class="fas fa-phone-alt"></i></a>
                             <button class="support-button"><i class="fas fa-mouse"></i>support</button>
-                            <a href="contact-page.php"><button class="contact-button"><i class="fas fa-paper-plane"></i>contact</button>  </a>
+                            <a class="cntct-link" href="contact-page.php"><button class="contact-button"><i class="fas fa-paper-plane"></i>contact</button>  </a>
                             <div class="search-container-lrg">
                                 <input class="search-box" type="search" placeholder="Search...">
                                 <i class="fa fa-search search-icon-2"></i>

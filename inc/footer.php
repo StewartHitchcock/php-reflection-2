@@ -1,3 +1,4 @@
+</body>
 <footer>
                         <div class= "footer-container">
                             <div class ="footer-container-contents">
@@ -74,6 +75,6 @@
                 <script src="js/cookie.js"></script>
                 <script src="js/functions.js"></script>
                 
-            </body>
+            
         
     </html>

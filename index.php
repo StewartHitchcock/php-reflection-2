@@ -5,17 +5,6 @@ include('inc/header.php');
 
 ?>
 
-<!-- <div class="carousel">
-                    <div class="carousel-img"></div>
-                    <div class="carousel-text">
-                        <div class="carousel-margin">
-                                <h1>Web design</h1>
-                                <p>For businesses looking to make a strong <br> and effective first impression.</p>
-                                <button type="button">Find out more<i class="fas fa-arrow-right"></i></button>
-                            </div>
-                        </div> 
-                    </div> -->
-
 <div class='slides'>
     <!-- slide 1 -->
     <div class="slide slide-1">
@@ -279,6 +268,6 @@ include('inc/header.php');
 </div>
 <?php 
 
-    include('inc/footer.php')
+    include('inc/footer.php');
     
 ?>

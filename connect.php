@@ -6,9 +6,11 @@ $telephone = filter_input(INPUT_POST, 'telephone');
 $subject = filter_input(INPUT_POST, 'subject');
 $message = filter_input(INPUT_POST, 'message');
 
-if (!empty($name)){
-    if (!empty($email)){
-        if (!empty($telephone)){
+$nameErr = "";
+
+if (!empty($name) && (preg_match("/^[a-zA-Z-' ]*$/", $name))){
+    if (!empty($email) && (preg_match("/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/", $email))) {
+        if (!empty($telephone) && (preg_match("/^(?:0|\+?44)(?:\d\s?){9,10}$/", $telephone)) ){
             if (!empty($subject)){
                 if (!empty($message)){
 
@@ -40,6 +42,7 @@ if (!empty($name)){
                     // $messageinput = document.queryselector('.messageinput');
 
                     // $messageinput.classList.add("error");
+                    header("Location: connect-fail.php");
 
                 }
             } else {
@@ -47,23 +50,26 @@ if (!empty($name)){
                 // $subjectinput = document.queryselector('.subjectinput');
 
                 // $subjectinput.classList.add("error");
-
+                header("Location: connect-fail.php");
             }
         } else {
             // $telephoneinput = document.queryselector('.telephoneinput');
 
             // $telephoneinput.classList.add("error");
+            header("Location: connect-fail.php");
         }
     }
     else {
         // $emailinput = document.queryselector('.emailinput');
 
         // $emailinput.classList.add("error");
+        header("Location: connect-fail.php");
     }
 } else{
 
 //     $nameinput = document.queryselector('.nameinput');
 
 //     $nameinput.classList.add("error");
+header("Location: connect-fail.php");
 }
 ?>

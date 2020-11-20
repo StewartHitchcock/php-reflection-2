@@ -68,8 +68,4 @@ if(messageField.value.length == 1 ){
     messageField.classList.remove('error');
     enableButton();
 }
-
-
-
-
 })

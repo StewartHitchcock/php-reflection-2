@@ -1097,16 +1097,16 @@ body {
 }
 
 .slides {
-  margin-top: 10px;
+  margin-top: 239px;
 }
 @media (min-width: 768px) {
   .slides {
-    margin-top: -10px;
+    margin-top: 135px;
   }
 }
 @media (min-width: 992px) {
   .slides {
-    margin-top: 0px;
+    margin-top: 239px;
   }
 }
 
@@ -1291,7 +1291,14 @@ body {
   width: 100%;
   height: 99px;
   background-color: #333645;
-  border-bottom: 1px white solid;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
 }
 
 .navbar-buttons {
@@ -1315,8 +1322,7 @@ body {
   text-align: center;
   cursor: pointer;
   font-size: 18px;
-  border-right: 1px solid #926fb1;
-  border-bottom: 1px white solid;
+  border-right: 1px solid black;
   z-index: 2;
 }
 
@@ -1337,7 +1343,7 @@ body {
 }
 
 .nav-bar-web {
-  border-left: 1px solid #926fb1;
+  border-left: 1px solid black;
 }
 
 .navbar-buttons .fa-desktop {
@@ -1579,6 +1585,17 @@ body {
 
 .top-cntct-ctn-bckgrnd {
   border-top: black solid 1px;
+  margin-top: 239px;
+}
+@media (min-width: 768px) {
+  .top-cntct-ctn-bckgrnd {
+    margin-top: 135px;
+  }
+}
+@media (min-width: 992px) {
+  .top-cntct-ctn-bckgrnd {
+    margin-top: 239px;
+  }
 }
 
 .top-cntct-ctn {
@@ -1595,10 +1612,16 @@ body {
 .header-cntct-bckgrnd {
   width: 100%;
   background-color: #333645;
+  height: 130px;
 }
 @media screen and (min-width: 992px) {
   .header-cntct-bckgrnd {
     background-color: #f2f2f2;
+  }
+}
+@media screen and (min-width: 417px) {
+  .header-cntct-bckgrnd {
+    height: auto;
   }
 }
 
@@ -1607,15 +1630,21 @@ body {
   color: white;
   height: 87px;
 }
+@media screen and (min-width: 768px) {
+  .header-cntct {
+    height: 100px;
+  }
+}
 @media screen and (min-width: 992px) {
   .header-cntct {
     color: black;
   }
 }
 .header-cntct h2 {
-  font-size: 36px;
+  font-size: 34px;
   margin-bottom: 50px;
   font-weight: 400;
+  text-align: center;
 }
 
 .cntct-layout {
@@ -1637,6 +1666,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   padding-right: 30px;
+  margin: auto;
 }
 @media screen and (min-width: 992px) {
   .cntct-layout .cntct-layout-left .form {
@@ -1712,11 +1742,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 15px;
-}
-@media screen and (min-width: 992px) {
-  .cntct-layout .cntct-layout-right {
-    width: 33%;
-  }
 }
 .cntct-layout .cntct-layout-right p {
   font-size: 16px;
@@ -1912,6 +1937,12 @@ body {
 }
 .cntct-success h1 {
   text-align: center;
+}
+
+.error-1 {
+  color: red;
+  width: 500px;
+  height: 100px;
 }
 
 .error {

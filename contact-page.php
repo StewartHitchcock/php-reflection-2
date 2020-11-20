@@ -57,11 +57,11 @@
         </div>
         <div class="cntct-layout-right">
             <p>Call us on:</p>
-            <a href="">01603 70 40 20 </a>
+            <a href="tel:01603704020">01603 70 40 20</a>
             <p>Email us on:</p>
-            <a href="">sales@netmatters.com</a>
+            <a href="mailto:sales@netmatters.com">sales@netmatters.com</a>
             <p>Call us at our Gorleston branch on:</p>
-            <a href="">01493 603204</a>
+            <a href="tel:01493603204">01493 603204</a>
             <p>Business Hours:
             <p>
             <p>Monday - Friday 07:00 - 18:00</p>
